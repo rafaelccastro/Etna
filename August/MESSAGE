@@ -1,0 +1,2318 @@
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.156
+ WARNING metini: FLUXES not found in data (kg,kt)           1           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.173
+ WARNING metini: FLUXES not found in data (kg,kt)           2           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.191
+ WARNING metini: FLUXES not found in data (kg,kt)           3           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.207
+ WARNING metini: FLUXES not found in data (kg,kt)           4           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.224
+ WARNING metini: FLUXES not found in data (kg,kt)           5           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.241
+ WARNING metini: FLUXES not found in data (kg,kt)           6           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.258
+ WARNING metini: FLUXES not found in data (kg,kt)           7           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.274
+ WARNING metini: FLUXES not found in data (kg,kt)           8           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.290
+ WARNING metini: FLUXES not found in data (kg,kt)           9           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.307
+ WARNING metini: FLUXES not found in data (kg,kt)          10           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.323
+ WARNING metini: FLUXES not found in data (kg,kt)          11           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ Simulation Date (CCYYMMDD): 20191121
+ Simulation Time (HHMMSS.S): 122227.341
+ WARNING metini: FLUXES not found in data (kg,kt)          12           1
+ Setting KBLS=2 to use the wind/temp profiles!
+  NOTICE metini: turbulence undefined (kblt=0); setting to Kantha-Clayson
+ 
+   KG   KT DATA  SIZE   NX   NY
+    1    1 CDC1 278.0  144   73
+    1    2 CDC1 278.0  144   73
+    1    3 CDC1 278.0  144   73
+    1    4 CDC1 278.0  144   73
+    1    5 CDC1 278.0  144   73
+    1    6 CDC1 278.0  144   73
+    1    7 CDC1 278.0  144   73
+    1    8 CDC1 278.0  144   73
+    1    9 CDC1 278.0  144   73
+    1   10 CDC1 278.0  144   73
+    1   11 CDC1 278.0  144   73
+    1   12 CDC1 278.0  144   73
+ 
+  NOTICE   main: number meteo grids and times -            1          12
+  
+ HYSPLIT4
+ Last Changed Rev: 952
+ Last Changed Date: 2018-04-23 13:22:19 -0400 (Mon, 23 Apr 2018)
+ 
+ ------------- Start Namelist configuration -------------------
+ Internal grid parameters (nlvl,aa,bb,cc):           40   30.00000    
+  -25.00000       5.000000    
+ &SETUP
+ INITD   =           0,
+ KHMAX   =        9999,
+ NUMPAR  =       10000,
+ MAXPAR  =       10000,
+ MAXDIM  =           1,
+ QCYCLE  =  0.0000000E+00,
+ P10F    =   1.000000    ,
+ KMIXD   =           0,
+ KMIX0   =         250,
+ FRME    =  0.1000000    ,
+ FRMR    =  0.0000000E+00,
+ KRND    =           6,
+ DELT    =  0.0000000E+00,
+ KDEF    =           0,
+ TKERD   =  0.1800000    ,
+ TKERN   =  0.1800000    ,
+ NDUMP   =          24,
+ NCYCL   =          24,
+ TRATIO  =  0.7500000    ,
+ ISOT    =         -99,
+ MGMIN   =          10,
+ KMSL    =           0,
+ NSTR    =           0,
+ MHRS    =           0,
+ NVER    =           0,
+ CPACK   = 99*1,
+ CMASS   =           0,
+ ICHEM   =           0,
+ EFILE   =                                                                                 ,
+ VSCALE  =   200.0000    ,
+ VSCALES =   200.0000    ,
+ VSCALEU =   200.0000    ,
+ K10M    =           1,
+ VDIST   = VMSDIST                                                                         ,
+ KHINP   =           0,
+ PINBC   = PARINBC                                                                         ,
+ TOUT    =           0,
+ TM_PRES =           0,
+ TM_TPOT =           0,
+ TM_TAMB =           0,
+ TM_RAIN =           0,
+ TM_MIXD =           0,
+ TM_TERR =           0,
+ HSCALE  =   10800.00    ,
+ TM_DSWF =           0,
+ TM_RELH =           0,
+ TM_SPHU =           0,
+ TM_MIXR =           0,
+ DXF     =   1.000000    ,
+ DYF     =   1.000000    ,
+ DZF     =  9.9999998E-03,
+ PINPF   = PARINIT                                                                         ,
+ POUTF   = PARDUMP                                                                         ,
+ NINIT   =           1,
+ KAGL    =           0,
+ KPUFF   =           0,
+ KBLT    =           0,
+ KZMIX   =           0,
+ TVMIX   =   1.000000    ,
+ KBLS    =           1,
+ CONAGE  =          48,
+ KSPL    =           1,
+ FRHS    =   1.000000    ,
+ FRVS    =  9.9999998E-03,
+ FRTS    =  0.1000000    ,
+ FRHMAX  =   3.000000    ,
+ SPLITF  =   1.000000    ,
+ MESSG   = MESSAGE                                                                         ,
+ NBPTYP  =           1,
+ RHB     =          80,
+ RHT     =          60,
+ OUTDT   =           0,
+ DECAY   =           1,
+ KWET    =           1,
+ KRAND   =           1,
+ CAPEMIN =  -1.000000    ,
+ TKEMIN  =  1.0000000E-03,
+ WBWR    =  0.0000000E+00,
+ WBWF    =  0.0000000E+00,
+ WBBH    =  0.0000000E+00
+ /
+ ------------- End Namelist configuration -------------------
+  
+  NOTICE   main: pollutant initialization flags
+      Wet deposition -  T
+       Grav settling -  T
+  NOTICE   main: meteorological data flags
+     Ten meter wind -  T
+     Two meter temp -  T
+     Exchange coeff -  F
+          Heat flux -  F
+      Momentum flux -  F
+  Velocity variance -  F
+       3D TKE field -  F
+     Down shortwave -  F
+  Friction velocity -  F
+      Friction temp -  F
+     Terrain height -  F
+   Surface pressure -  T
+  Mixed layer depth -  F
+  Convective mixing -  F
+  Profile averaging -            0
+   Stability method -            2
+  Horizontal mixing -            0
+  PBL mixing scheme -            2
+   Free Trop Mixing -    1.000000    
+  Precip accumulate -          360
+ ------------- Start computation messages -------------------
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   48
+  NOTICE metpos: closed unit -            1           1        1000
+  NOTICE metpos: closed unit -            1           2        1001
+  NOTICE metpos: closed unit -            1           3        1002
+  NOTICE metpos: closed unit -            1           4        1003
+  NOTICE metpos: closed unit -            1           5        1004
+  NOTICE metpos: closed unit -            1           6        1005
+  NOTICE metpos: (mtime,ftime) -     62367840           0
+  NOTICE metpos: (mtime,ftime) -     62368200           0
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   10   10   40
+  NOTICE sfcinp: reading ASCDATA.CFG
+  NOTICE sfcinp: record terminator = CR/LF
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10    2   48
+  NOTICE metinp: CDC1 1    1   10   10    2   48 62367840 18  8  1  0
+ --------------------------------------------------------
+  NOTICE prfprs: extrapolation from level (k,m):           33   31550.30    
+ Input data levels:           17     Internal Sigma levels:           40
+ --------------------------------------------------------
+  NOTICE metinp: CDC1 1   95   10   10    2   48 62368200 18  8  1  6
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   48
+  NOTICE   main: Initial time step (min)           12
+  NOTICE emspnt: emissions started
+  NOTICE   main:            1    62367852         168  1.9920005E+15
+  NOTICE metpos: closed unit -            1           7        1006
+  NOTICE   main:            1    62367864         336  3.9839972E+15
+  NOTICE   main:            1    62367876         504  5.9759917E+15
+  NOTICE   main:            1    62367888         672  7.9679782E+15
+  NOTICE   main:            1    62367900         840  9.9599808E+15
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   48
+  NOTICE   main:            2    62367920        1120  1.3280034E+16
+  NOTICE   main:            2    62367940        1400  1.6600086E+16
+  NOTICE   main:            2    62367960        1680  1.9920138E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   48
+  NOTICE   main:            3    62367980        1960  2.3240190E+16
+  NOTICE   main:            3    62368000        2240  2.6560243E+16
+  NOTICE   main:            3    62368020        2520  2.9880296E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   47
+  NOTICE   main:            4    62368035        2732  3.2370376E+16
+  NOTICE   main:            4    62368050        2944  3.4860456E+16
+  NOTICE   main:            4    62368065        3156  3.7350449E+16
+  NOTICE   main:            4    62368080        3368  3.9840529E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   47
+  NOTICE   main:            5    62368095        3580  4.2330609E+16
+  NOTICE   main:            5    62368110        3792  4.4820690E+16
+  NOTICE   main:            5    62368125        4004  4.7310770E+16
+  NOTICE   main:            5    62368140        4216  4.9800850E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    2   47
+  NOTICE   main:            6    62368155        4428  5.2290930E+16
+  NOTICE   main:            6    62368170        4640  5.4781011E+16
+  NOTICE   main:            6    62368185        4852  5.7271091E+16
+  NOTICE condsk:  1 output at    8   1   6   0
+  NOTICE   main:            6    62368200        5064  5.9761171E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  9.50
+                                                           20 11505.0 11.47
+                                                           19 10360.0 11.13
+                                                           18  9275.0 10.79
+                                                           17  8250.0 10.37
+                                                           16  7285.0  9.39
+                                                           15  6380.0  8.85
+                                                           14  5535.0  8.16
+                                                           13  4750.0  7.26
+                                                           12  4025.0  6.89
+                                                           11  3360.0  5.33
+                                                           10  2755.0  0.85
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   47
+  NOTICE metpos: (mtime,ftime) -     62368560    62367840
+  NOTICE metinp: CDC1 1  189   10   10    2   48 62368560 18  8  1 12
+  NOTICE   main:            7    62368215        5276  6.2251252E+16
+  NOTICE   main:            7    62368230        5488  6.4741332E+16
+  NOTICE   main:            7    62368245        5700  6.7231412E+16
+  NOTICE   main:            7    62368260        5912  6.9721493E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   47
+  NOTICE   main:            8    62368275        6124  7.2211577E+16
+  NOTICE   main:            8    62368290        6336  7.4701430E+16
+  NOTICE   main:            8    62368305        6548  7.7191283E+16
+  NOTICE   main:            8    62368320        6760  7.9681135E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   47
+  NOTICE   main:            9    62368332        6928  8.1672986E+16
+  NOTICE   main:            9    62368344        7096  8.3664838E+16
+  NOTICE   main:            9    62368356        7264  8.5656689E+16
+  NOTICE   main:            9    62368368        7432  8.7648540E+16
+  NOTICE   main:            9    62368380        7600  8.9640391E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   48
+  NOTICE   main:           10    62368392        7768  9.1632242E+16
+  NOTICE   main:           10    62368404        7936  9.3624094E+16
+  NOTICE   main:           10    62368416        8104  9.5615945E+16
+  NOTICE   main:           10    62368428        8272  9.7607796E+16
+  NOTICE   main:           10    62368440        8440  9.9599647E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   48
+  NOTICE   main:           11    62368452        8608  1.0159150E+17
+  NOTICE   main:           11    62368464        8776  1.0358335E+17
+  NOTICE   main:           11    62368476        8944  1.0557520E+17
+  NOTICE   main:           11    62368488        9112  1.0756705E+17
+  NOTICE   main:           11    62368500        9280  1.0955890E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   48
+  NOTICE   main:           12    62368512        9448  1.1155075E+17
+  NOTICE   main:           12    62368524        9616  1.1354261E+17
+  NOTICE   main:           12    62368536        9784  1.1553446E+17
+  NOTICE   main:           12    62368548        9952  1.1752631E+17
+ WARNING emspnt: exceeding puff limit
+  NOTICE condsk:  1 output at    8   1  12   0
+  NOTICE   main:           12    62368560       10000  1.1756161E+17
+                                                        Index  Height %Mass
+                                                           21 12710.0  6.81
+                                                           20 11505.0 11.19
+                                                           19 10360.0 11.01
+                                                           18  9275.0 10.47
+                                                           17  8250.0 10.16
+                                                           16  7285.0  9.49
+                                                           15  6380.0  8.99
+                                                           14  5535.0  8.24
+                                                           13  4750.0  7.52
+                                                           12  4025.0  7.22
+                                                           11  3360.0  5.74
+                                                           10  2755.0  2.38
+                                                            9  2210.0  0.76
+                                                            8  1725.0  0.03
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    3   48
+  NOTICE emspnt: emissions terminated
+  NOTICE metpos: (mtime,ftime) -     62368920    62368200
+  NOTICE metinp: CDC1 1  283   10   10    2   48 62368920 18  8  1 18
+  NOTICE   main:           13    62368572       10000  1.1756161E+17
+  NOTICE   main:           13    62368584       10000  1.1756161E+17
+  NOTICE   main:           13    62368596       10000  1.1756161E+17
+  NOTICE   main:           13    62368608       10000  1.1756161E+17
+  NOTICE   main:           13    62368620       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE   main:           14    62368632       10000  1.1756161E+17
+  NOTICE   main:           14    62368644       10000  1.1756161E+17
+  NOTICE   main:           14    62368656       10000  1.1756161E+17
+  NOTICE   main:           14    62368668       10000  1.1756161E+17
+  NOTICE   main:           14    62368680       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE   main:           15    62368692       10000  1.1756161E+17
+  NOTICE   main:           15    62368704       10000  1.1756161E+17
+  NOTICE   main:           15    62368716       10000  1.1756161E+17
+  NOTICE metsub: (kg ,xyr,xy1) -     1   10   10    4   48 shift
+  NOTICE metgrd: (kg, xyr,xy1) -     1   10   10    4   48
+  NOTICE metinp: CDC1 1  189   10   10    4   48 62368560 18  8  1 12
+  NOTICE metinp: CDC1 1  283   10   10    4   48 62368920 18  8  1 18
+  NOTICE   main:           15    62368728       10000  1.1756161E+17
+  NOTICE   main:           15    62368740       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE   main:           16    62368752       10000  1.1756161E+17
+  NOTICE   main:           16    62368764       10000  1.1756161E+17
+  NOTICE   main:           16    62368776       10000  1.1756161E+17
+  NOTICE   main:           16    62368788       10000  1.1756161E+17
+  NOTICE   main:           16    62368800       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE   main:           17    62368812       10000  1.1756161E+17
+  NOTICE   main:           17    62368824       10000  1.1756161E+17
+  NOTICE   main:           17    62368836       10000  1.1756161E+17
+  NOTICE   main:           17    62368848       10000  1.1756161E+17
+  NOTICE   main:           17    62368860       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE   main:           18    62368872       10000  1.1756161E+17
+  NOTICE   main:           18    62368884       10000  1.1756161E+17
+  NOTICE   main:           18    62368896       10000  1.1756161E+17
+  NOTICE   main:           18    62368908       10000  1.1756161E+17
+  NOTICE condsk:  1 output at    8   1  18   0
+  NOTICE   main:           18    62368920       10000  1.1756161E+17
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.00
+                                                           21 12710.0  3.79
+                                                           20 11505.0  9.17
+                                                           19 10360.0 10.79
+                                                           18  9275.0 10.22
+                                                           17  8250.0  9.84
+                                                           16  7285.0  9.14
+                                                           15  6380.0  9.27
+                                                           14  5535.0  8.32
+                                                           13  4750.0  7.65
+                                                           12  4025.0  7.02
+                                                           11  3360.0  6.25
+                                                           10  2755.0  4.10
+                                                            9  2210.0  2.92
+                                                            8  1725.0  1.22
+                                                            7  1300.0  0.33
+  NOTICE advrng: (kg ,xyr,xy1) -  1   10   10    4   48
+  NOTICE metpos: (mtime,ftime) -     62369280    62368560
+  NOTICE metinp: CDC1 1  377   10   10    4   48 62369280 18  8  2  0
+  NOTICE   main:           19    62368932       10000  1.1756161E+17
+  NOTICE   main:           19    62368944       10000  1.1756161E+17
+  NOTICE   main:           19    62368956       10000  1.1756161E+17
+  NOTICE   main:           19    62368968       10000  1.1756161E+17
+  NOTICE   main:           19    62368980       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   11   10    4   48
+  NOTICE   main:           20    62368990       10000  1.1756161E+17
+  NOTICE   main:           20    62369000       10000  1.1756161E+17
+  NOTICE   main:           20    62369010       10000  1.1756161E+17
+  NOTICE   main:           20    62369020       10000  1.1756161E+17
+  NOTICE   main:           20    62369030       10000  1.1756161E+17
+  NOTICE   main:           20    62369040       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   11   10    4   48
+  NOTICE   main:           21    62369050       10000  1.1756161E+17
+  NOTICE   main:           21    62369060       10000  1.1756161E+17
+  NOTICE   main:           21    62369070       10000  1.1756161E+17
+  NOTICE   main:           21    62369080       10000  1.1756161E+17
+  NOTICE   main:           21    62369090       10000  1.1756161E+17
+  NOTICE   main:           21    62369100       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   12   11    4   48
+  NOTICE   main:           22    62369110       10000  1.1756161E+17
+  NOTICE   main:           22    62369120       10000  1.1756161E+17
+  NOTICE   main:           22    62369130       10000  1.1756161E+17
+  NOTICE   main:           22    62369140       10000  1.1756161E+17
+  NOTICE   main:           22    62369150       10000  1.1756161E+17
+  NOTICE   main:           22    62369160       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   13   11    4   48
+  NOTICE metsub: (kg ,xyr,xy1) -     1   13   11    4   48 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   13   11   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   13   11    4   48
+  NOTICE metinp: CDC1 1  283   13   11    4   48 62368920 18  8  1 18
+  NOTICE metinp: CDC1 1  377   13   11    4   48 62369280 18  8  2  0
+  NOTICE   main:           23    62369170       10000  1.1756161E+17
+  NOTICE   main:           23    62369180       10000  1.1756161E+17
+  NOTICE   main:           23    62369190       10000  1.1756161E+17
+  NOTICE   main:           23    62369200       10000  1.1756161E+17
+  NOTICE   main:           23    62369210       10000  1.1756161E+17
+  NOTICE   main:           23    62369220       10000  1.1756161E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   13   11    4   48
+  NOTICE   main:           24    62369226       10000  1.1756161E+17
+  NOTICE   main:           24    62369232       10000  1.1756161E+17
+  NOTICE   main:           24    62369238       10000  1.1756161E+17
+  NOTICE   main:           24    62369244       10000  1.1756161E+17
+  NOTICE   main:           24    62369250       10000  1.1756161E+17
+  NOTICE   main:           24    62369256       10000  1.1756161E+17
+  NOTICE   main:           24    62369262       10000  1.1756161E+17
+  NOTICE   main:           24    62369268       10000  1.1756161E+17
+  NOTICE   main:           24    62369274       10000  1.1756161E+17
+  NOTICE condsk:  1 output at    8   2   0   0
+  NOTICE   main:           24    62369280       10000  1.1756161E+17
+  NOTICE parout:   18   8   2   0   0    Num=   10000
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.00
+                                                           21 12710.0  2.80
+                                                           20 11505.0  5.54
+                                                           19 10360.0  9.46
+                                                           18  9275.0  9.93
+                                                           17  8250.0  9.24
+                                                           16  7285.0  9.43
+                                                           15  6380.0  9.04
+                                                           14  5535.0  8.30
+                                                           13  4750.0  7.68
+                                                           12  4025.0  7.01
+                                                           11  3360.0  6.30
+                                                           10  2755.0  4.82
+                                                            9  2210.0  3.30
+                                                            8  1725.0  3.16
+                                                            7  1300.0  2.29
+                                                            6   935.0  1.05
+                                                            5   630.0  0.54
+                                                            4   385.0  0.08
+                                                            3   200.0  0.03
+  NOTICE advrng: (kg ,xyr,xy1) -  1   13   11    4   48
+  NOTICE metpos: (mtime,ftime) -     62369640    62368920
+  NOTICE metinp: CDC1 1  471   13   11    4   48 62369640 18  8  2  6
+  NOTICE   main:           25    62369286       10000  1.1756161E+17
+  NOTICE   main:           25    62369292       10000  1.1756161E+17
+  NOTICE   main:           25    62369298       10000  1.1755976E+17
+  NOTICE   main:           25    62369304       10000  1.1755564E+17
+  NOTICE   main:           25    62369310       10000  1.1755564E+17
+  NOTICE   main:           25    62369316       10000  1.1755564E+17
+  NOTICE   main:           25    62369322       10000  1.1755564E+17
+  NOTICE   main:           25    62369328       10000  1.1755564E+17
+  NOTICE   main:           25    62369334       10000  1.1755380E+17
+  NOTICE   main:           25    62369340       10000  1.1755380E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   14   11    4   48
+  NOTICE   main:           26    62369346       10000  1.1755109E+17
+  NOTICE   main:           26    62369352       10000  1.1754936E+17
+  NOTICE   main:           26    62369358       10000  1.1754480E+17
+  NOTICE   main:           26    62369364       10000  1.1754080E+17
+  NOTICE   main:           26    62369370       10000  1.1753625E+17
+  NOTICE   main:           26    62369376       10000  1.1753440E+17
+  NOTICE   main:           26    62369382       10000  1.1752960E+17
+  NOTICE   main:           26    62369388       10000  1.1751885E+17
+  NOTICE   main:           26    62369394       10000  1.1751250E+17
+  NOTICE   main:           26    62369400       10000  1.1750429E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   15   12    3   47
+  NOTICE   main:           27    62369406       10000  1.1749867E+17
+  NOTICE   main:           27    62369412       10000  1.1749475E+17
+  NOTICE   main:           27    62369418       10000  1.1749227E+17
+  NOTICE   main:           27    62369424       10000  1.1748078E+17
+  NOTICE   main:           27    62369430       10000  1.1747133E+17
+  NOTICE   main:           27    62369436       10000  1.1746444E+17
+  NOTICE   main:           27    62369442       10000  1.1745659E+17
+  NOTICE   main:           27    62369448       10000  1.1745018E+17
+  NOTICE   main:           27    62369454       10000  1.1743874E+17
+  NOTICE   main:           27    62369460       10000  1.1742729E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   15   12    3   47
+  NOTICE   main:           28    62369466       10000  1.1741419E+17
+  NOTICE   main:           28    62369472       10000  1.1740172E+17
+  NOTICE   main:           28    62369478       10000  1.1738536E+17
+  NOTICE   main:           28    62369484       10000  1.1737098E+17
+  NOTICE   main:           28    62369490       10000  1.1735858E+17
+  NOTICE   main:           28    62369496       10000  1.1733969E+17
+  NOTICE   main:           28    62369502       10000  1.1732073E+17
+  NOTICE   main:           28    62369508       10000  1.1730716E+17
+  NOTICE   main:           28    62369514       10000  1.1728331E+17
+  NOTICE   main:           28    62369520       10000  1.1726112E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   16   12    3   47
+  NOTICE   main:           29    62369526       10000  1.1724822E+17
+  NOTICE   main:           29    62369532       10000  1.1723599E+17
+  NOTICE   main:           29    62369538       10000  1.1720817E+17
+  NOTICE   main:           29    62369544       10000  1.1718573E+17
+  NOTICE   main:           29    62369550       10000  1.1715491E+17
+  NOTICE   main:           29    62369556       10000  1.1712907E+17
+  NOTICE   main:           29    62369562       10000  1.1710440E+17
+  NOTICE   main:           29    62369568       10000  1.1709087E+17
+  NOTICE   main:           29    62369574       10000  1.1706934E+17
+  NOTICE   main:           29    62369580       10000  1.1704367E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   16   12    3   47
+  NOTICE   main:           30    62369586       10000  1.1702089E+17
+  NOTICE   main:           30    62369592       10000  1.1699310E+17
+  NOTICE   main:           30    62369598       10000  1.1696246E+17
+  NOTICE   main:           30    62369604       10000  1.1692463E+17
+  NOTICE   main:           30    62369610       10000  1.1689494E+17
+  NOTICE   main:           30    62369616       10000  1.1687946E+17
+  NOTICE   main:           30    62369622       10000  1.1685275E+17
+  NOTICE   main:           30    62369628       10000  1.1682082E+17
+  NOTICE metsub: (kg ,xyr,xy1) -     1   16   12    3   47 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   16   12   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   16   12    3   47
+  NOTICE metinp: CDC1 1  377   16   12    3   47 62369280 18  8  2  0
+  NOTICE metinp: CDC1 1  471   16   12    3   47 62369640 18  8  2  6
+  NOTICE   main:           30    62369634       10000  1.1678331E+17
+  NOTICE condsk:  1 output at    8   2   6   0
+  NOTICE   main:           30    62369640       10000  1.1674602E+17
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.02
+                                                           21 12710.0  2.68
+                                                           20 11505.0  3.91
+                                                           19 10360.0  6.79
+                                                           18  9275.0  8.70
+                                                           17  8250.0  8.43
+                                                           16  7285.0  8.14
+                                                           15  6380.0  8.78
+                                                           14  5535.0  8.75
+                                                           13  4750.0  8.01
+                                                           12  4025.0  7.20
+                                                           11  3360.0  6.80
+                                                           10  2755.0  6.19
+                                                            9  2210.0  3.74
+                                                            8  1725.0  3.24
+                                                            7  1300.0  2.50
+                                                            6   935.0  2.61
+                                                            5   630.0  1.52
+                                                            4   385.0  1.01
+                                                            3   200.0  0.43
+                                                            2    75.0  0.39
+                                                            1    10.0  0.14
+  NOTICE advrng: (kg ,xyr,xy1) -  1   17   12    3   47
+  NOTICE metpos: (mtime,ftime) -     62370000    62369280
+  NOTICE metinp: CDC1 1  565   16   12    3   47 62370000 18  8  2 12
+  NOTICE   main:           31    62369646       10000  1.1670281E+17
+  NOTICE   main:           31    62369652       10000  1.1666124E+17
+  NOTICE   main:           31    62369658       10000  1.1661618E+17
+  NOTICE   main:           31    62369664       10000  1.1657738E+17
+  NOTICE   main:           31    62369670       10000  1.1654170E+17
+  NOTICE   main:           31    62369676       10000  1.1652690E+17
+  NOTICE   main:           31    62369682       10000  1.1649939E+17
+  NOTICE   main:           31    62369688       10000  1.1647079E+17
+  NOTICE   main:           31    62369694       10000  1.1643585E+17
+  NOTICE   main:           31    62369700       10000  1.1639555E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   18   14    3   46
+  NOTICE   main:           32    62369706       10000  1.1635107E+17
+  NOTICE   main:           32    62369712       10000  1.1630293E+17
+  NOTICE   main:           32    62369718       10000  1.1626175E+17
+  NOTICE   main:           32    62369724       10000  1.1621803E+17
+  NOTICE   main:           32    62369730       10000  1.1616046E+17
+  NOTICE   main:           32    62369736       10000  1.1610879E+17
+  NOTICE   main:           32    62369742       10000  1.1606706E+17
+  NOTICE   main:           32    62369748       10000  1.1601064E+17
+  NOTICE   main:           32    62369754       10000  1.1594914E+17
+  NOTICE   main:           32    62369760       10000  1.1589305E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   19   14    3   46
+  NOTICE   main:           33    62369766       10000  1.1584907E+17
+  NOTICE   main:           33    62369772       10000  1.1581988E+17
+  NOTICE   main:           33    62369778       10000  1.1577191E+17
+  NOTICE   main:           33    62369784       10000  1.1573347E+17
+  NOTICE   main:           33    62369790       10000  1.1567702E+17
+  NOTICE   main:           33    62369796       10000  1.1561060E+17
+  NOTICE   main:           33    62369802       10000  1.1556045E+17
+  NOTICE   main:           33    62369808       10000  1.1549960E+17
+  NOTICE   main:           33    62369814       10000  1.1543639E+17
+  NOTICE   main:           33    62369820       10000  1.1539183E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   19   14    3   46
+  NOTICE   main:           34    62369826       10000  1.1533762E+17
+  NOTICE   main:           34    62369832       10000  1.1527987E+17
+  NOTICE   main:           34    62369838       10000  1.1522537E+17
+  NOTICE   main:           34    62369844       10000  1.1516514E+17
+  NOTICE   main:           34    62369850       10000  1.1510295E+17
+  NOTICE   main:           34    62369856       10000  1.1504160E+17
+  NOTICE   main:           34    62369862       10000  1.1497296E+17
+  NOTICE   main:           34    62369868       10000  1.1490775E+17
+  NOTICE   main:           34    62369874       10000  1.1485115E+17
+  NOTICE metsub: (kg ,xyr,xy1) -     1   19   14    3   46 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   19   14   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   19   14    3   46
+  NOTICE metinp: CDC1 1  471   19   14    3   46 62369640 18  8  2  6
+  NOTICE metinp: CDC1 1  565   19   14    3   46 62370000 18  8  2 12
+  NOTICE   main:           34    62369880       10000  1.1479242E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   20   14    3   46
+  NOTICE   main:           35    62369886       10000  1.1472870E+17
+  NOTICE   main:           35    62369892       10000  1.1467240E+17
+  NOTICE   main:           35    62369898       10000  1.1460533E+17
+  NOTICE   main:           35    62369904       10000  1.1454494E+17
+  NOTICE   main:           35    62369910       10000  1.1447934E+17
+  NOTICE   main:           35    62369916       10000  1.1440693E+17
+  NOTICE   main:           35    62369922       10000  1.1432814E+17
+  NOTICE   main:           35    62369928       10000  1.1425088E+17
+  NOTICE   main:           35    62369934       10000  1.1417373E+17
+  NOTICE   main:           35    62369940       10000  1.1408165E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   20   14    3   46
+  NOTICE   main:           36    62369946       10000  1.1398710E+17
+  NOTICE   main:           36    62369952       10000  1.1390770E+17
+  NOTICE   main:           36    62369958       10000  1.1382602E+17
+  NOTICE   main:           36    62369964       10000  1.1372358E+17
+  NOTICE   main:           36    62369970       10000  1.1361166E+17
+  NOTICE   main:           36    62369976       10000  1.1352372E+17
+  NOTICE   main:           36    62369982       10000  1.1343258E+17
+  NOTICE   main:           36    62369988       10000  1.1335279E+17
+  NOTICE   main:           36    62369994       10000  1.1327711E+17
+  NOTICE condsk:  1 output at    8   2  12   0
+  NOTICE   main:           36    62370000       10000  1.1317970E+17
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.01
+                                                           21 12710.0  2.25
+                                                           20 11505.0  4.16
+                                                           19 10360.0  5.04
+                                                           18  9275.0  7.61
+                                                           17  8250.0  8.22
+                                                           16  7285.0  7.56
+                                                           15  6380.0  7.82
+                                                           14  5535.0  8.50
+                                                           13  4750.0  8.40
+                                                           12  4025.0  7.86
+                                                           11  3360.0  6.97
+                                                           10  2755.0  6.52
+                                                            9  2210.0  4.51
+                                                            8  1725.0  3.79
+                                                            7  1300.0  3.03
+                                                            6   935.0  2.70
+                                                            5   630.0  1.76
+                                                            4   385.0  1.70
+                                                            3   200.0  0.79
+                                                            2    75.0  0.63
+                                                            1    10.0  0.18
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   14    3   46
+  NOTICE metpos: (mtime,ftime) -     62370360    62369640
+  NOTICE metinp: CDC1 1  659   19   14    3   46 62370360 18  8  2 18
+  NOTICE   main:           37    62370006       10000  1.1311594E+17
+  NOTICE   main:           37    62370012       10000  1.1304948E+17
+  NOTICE   main:           37    62370018       10000  1.1297708E+17
+  NOTICE   main:           37    62370024       10000  1.1290589E+17
+  NOTICE   main:           37    62370030       10000  1.1282901E+17
+  NOTICE   main:           37    62370036       10000  1.1276445E+17
+  NOTICE   main:           37    62370042       10000  1.1271096E+17
+  NOTICE   main:           37    62370048       10000  1.1264500E+17
+  NOTICE   main:           37    62370054       10000  1.1259583E+17
+  NOTICE   main:           37    62370060       10000  1.1253392E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   21   14    3   46
+  NOTICE   main:           38    62370066       10000  1.1246800E+17
+  NOTICE   main:           38    62370072       10000  1.1241091E+17
+  NOTICE   main:           38    62370078       10000  1.1234240E+17
+  NOTICE   main:           38    62370084       10000  1.1226697E+17
+  NOTICE   main:           38    62370090       10000  1.1220685E+17
+  NOTICE   main:           38    62370096       10000  1.1212986E+17
+  NOTICE   main:           38    62370102       10000  1.1204722E+17
+  NOTICE   main:           38    62370108       10000  1.1197517E+17
+  NOTICE   main:           38    62370114       10000  1.1189929E+17
+  NOTICE   main:           38    62370120       10000  1.1183471E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   22   14    3   46
+  NOTICE   main:           39    62370126       10000  1.1176086E+17
+  NOTICE   main:           39    62370132       10000  1.1166511E+17
+  NOTICE   main:           39    62370138       10000  1.1158379E+17
+  NOTICE   main:           39    62370144       10000  1.1152074E+17
+  NOTICE   main:           39    62370150       10000  1.1144105E+17
+  NOTICE   main:           39    62370156       10000  1.1135685E+17
+  NOTICE   main:           39    62370162       10000  1.1127098E+17
+  NOTICE   main:           39    62370168       10000  1.1118495E+17
+  NOTICE   main:           39    62370174       10000  1.1108895E+17
+  NOTICE   main:           39    62370180       10000  1.1102381E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   23   15    2   45
+  NOTICE   main:           40    62370186       10000  1.1094989E+17
+  NOTICE   main:           40    62370192       10000  1.1087985E+17
+  NOTICE   main:           40    62370198       10000  1.1079729E+17
+  NOTICE   main:           40    62370204       10000  1.1072508E+17
+  NOTICE   main:           40    62370210       10000  1.1064842E+17
+  NOTICE   main:           40    62370216       10000  1.1055626E+17
+  NOTICE metsub: (kg ,xyr,xy1) -     1   23   15    2   45 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   23   15   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   23   15    2   45
+  NOTICE metinp: CDC1 1  565   23   15    2   45 62370000 18  8  2 12
+  NOTICE metinp: CDC1 1  659   23   15    2   45 62370360 18  8  2 18
+  NOTICE   main:           40    62370222       10000  1.1048492E+17
+  NOTICE   main:           40    62370228       10000  1.1040408E+17
+  NOTICE   main:           40    62370234       10000  1.1034173E+17
+  NOTICE   main:           40    62370240       10000  1.1029177E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   24   15    2   45
+  NOTICE   main:           41    62370246       10000  1.1022836E+17
+  NOTICE   main:           41    62370252       10000  1.1014574E+17
+  NOTICE   main:           41    62370258       10000  1.1007495E+17
+  NOTICE   main:           41    62370264       10000  1.0999586E+17
+  NOTICE   main:           41    62370270       10000  1.0991806E+17
+  NOTICE   main:           41    62370276       10000  1.0982145E+17
+  NOTICE   main:           41    62370282       10000  1.0973099E+17
+  NOTICE   main:           41    62370288       10000  1.0965247E+17
+  NOTICE   main:           41    62370294       10000  1.0955713E+17
+  NOTICE   main:           41    62370300       10000  1.0948177E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   24   15    2   45
+  NOTICE   main:           42    62370306       10000  1.0938916E+17
+  NOTICE   main:           42    62370312       10000  1.0929179E+17
+  NOTICE   main:           42    62370318       10000  1.0920006E+17
+  NOTICE   main:           42    62370324       10000  1.0911600E+17
+  NOTICE   main:           42    62370330       10000  1.0903146E+17
+  NOTICE   main:           42    62370336       10000  1.0894418E+17
+  NOTICE   main:           42    62370342       10000  1.0885063E+17
+  NOTICE   main:           42    62370348       10000  1.0874485E+17
+  NOTICE   main:           42    62370354       10000  1.0865043E+17
+  NOTICE condsk:  1 output at    8   2  18   0
+  NOTICE   main:           42    62370360       10000  1.0855622E+17
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.00
+                                                           21 12710.0  2.05
+                                                           20 11505.0  4.22
+                                                           19 10360.0  3.67
+                                                           18  9275.0  5.34
+                                                           17  8250.0  8.89
+                                                           16  7285.0  7.97
+                                                           15  6380.0  7.46
+                                                           14  5535.0  7.81
+                                                           13  4750.0  8.06
+                                                           12  4025.0  8.19
+                                                           11  3360.0  7.55
+                                                           10  2755.0  6.68
+                                                            9  2210.0  4.90
+                                                            8  1725.0  3.60
+                                                            7  1300.0  3.37
+                                                            6   935.0  3.07
+                                                            5   630.0  2.33
+                                                            4   385.0  2.19
+                                                            3   200.0  1.65
+                                                            2    75.0  0.58
+                                                            1    10.0  0.42
+  NOTICE advrng: (kg ,xyr,xy1) -  1   25   15    2   45
+  NOTICE metpos: (mtime,ftime) -     62370720    62370000
+  NOTICE metinp: CDC1 1  753   23   15    2   45 62370720 18  8  3  0
+  NOTICE   main:           43    62370365       10000  1.0840540E+17
+  NOTICE   main:           43    62370370       10000  1.0825261E+17
+  NOTICE   main:           43    62370375       10000  1.0808519E+17
+  NOTICE   main:           43    62370380       10000  1.0793553E+17
+  NOTICE   main:           43    62370385       10000  1.0780150E+17
+  NOTICE   main:           43    62370390       10000  1.0764864E+17
+  NOTICE   main:           43    62370395       10000  1.0749963E+17
+  NOTICE   main:           43    62370400       10000  1.0733426E+17
+  NOTICE   main:           43    62370405       10000  1.0718132E+17
+  NOTICE   main:           43    62370410       10000  1.0704267E+17
+  NOTICE   main:           43    62370415       10000  1.0690751E+17
+  NOTICE   main:           43    62370420       10000  1.0676985E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   25   15    2   45
+  NOTICE   main:           44    62370425       10000  1.0662175E+17
+  NOTICE   main:           44    62370430       10000  1.0647892E+17
+  NOTICE   main:           44    62370435       10000  1.0632854E+17
+  NOTICE   main:           44    62370440       10000  1.0619191E+17
+  NOTICE   main:           44    62370445       10000  1.0605318E+17
+  NOTICE   main:           44    62370450       10000  1.0591159E+17
+  NOTICE   main:           44    62370455       10000  1.0578196E+17
+  NOTICE   main:           44    62370460       10000  1.0564436E+17
+  NOTICE   main:           44    62370465       10000  1.0549257E+17
+  NOTICE   main:           44    62370470       10000  1.0534882E+17
+  NOTICE   main:           44    62370475       10000  1.0520807E+17
+  NOTICE   main:           44    62370480       10000  1.0506687E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   26   15    2   45
+  NOTICE   main:           45    62370486       10000  1.0491574E+17
+  NOTICE   main:           45    62370492       10000  1.0476914E+17
+  NOTICE   main:           45    62370498       10000  1.0461782E+17
+  NOTICE   main:           45    62370504       10000  1.0446731E+17
+  NOTICE   main:           45    62370510       10000  1.0431496E+17
+  NOTICE   main:           45    62370516       10000  1.0415959E+17
+  NOTICE   main:           45    62370522       10000  1.0400417E+17
+  NOTICE   main:           45    62370528       10000  1.0385162E+17
+  NOTICE   main:           45    62370534       10000  1.0369090E+17
+  NOTICE   main:           45    62370540       10000  1.0354094E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   26   15    2   45
+  NOTICE   main:           46    62370545       10000  1.0341134E+17
+  NOTICE metsub: (kg ,xyr,xy1) -     1   26   15    2   45 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   26   15   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   26   15    2   45
+  NOTICE metinp: CDC1 1  659   26   15    2   45 62370360 18  8  2 18
+  NOTICE metinp: CDC1 1  753   26   15    2   45 62370720 18  8  3  0
+  NOTICE   main:           46    62370550       10000  1.0329554E+17
+  NOTICE   main:           46    62370555       10000  1.0317340E+17
+  NOTICE   main:           46    62370560       10000  1.0304460E+17
+  NOTICE   main:           46    62370565       10000  1.0292207E+17
+  NOTICE   main:           46    62370570       10000  1.0279744E+17
+  NOTICE   main:           46    62370575       10000  1.0267794E+17
+  NOTICE   main:           46    62370580       10000  1.0255619E+17
+  NOTICE   main:           46    62370585       10000  1.0244961E+17
+  NOTICE   main:           46    62370590       10000  1.0234074E+17
+  NOTICE   main:           46    62370595       10000  1.0223828E+17
+  NOTICE   main:           46    62370600       10000  1.0212057E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   27   15    2   45
+  NOTICE   main:           47    62370605       10000  1.0200686E+17
+  NOTICE   main:           47    62370610       10000  1.0191090E+17
+  NOTICE   main:           47    62370615       10000  1.0181796E+17
+  NOTICE   main:           47    62370620       10000  1.0171778E+17
+  NOTICE   main:           47    62370625       10000  1.0162052E+17
+  NOTICE   main:           47    62370630       10000  1.0152209E+17
+  NOTICE   main:           47    62370635       10000  1.0142270E+17
+  NOTICE   main:           47    62370640       10000  1.0133484E+17
+  NOTICE   main:           47    62370645       10000  1.0123679E+17
+  NOTICE   main:           47    62370650       10000  1.0114905E+17
+  NOTICE   main:           47    62370655       10000  1.0105195E+17
+  NOTICE   main:           47    62370660       10000  1.0094792E+17
+  NOTICE advrng: (kg ,xyr,xy1) -  1   28   15    2   45
+  NOTICE   main:           48    62370665       10000  1.0085473E+17
+  NOTICE   main:           48    62370670       10000  1.0075778E+17
+  NOTICE   main:           48    62370675       10000  1.0066480E+17
+  NOTICE   main:           48    62370680       10000  1.0057412E+17
+  NOTICE   main:           48    62370685       10000  1.0048871E+17
+  NOTICE   main:           48    62370690       10000  1.0039623E+17
+  NOTICE   main:           48    62370695       10000  1.0030297E+17
+  NOTICE   main:           48    62370700       10000  1.0021111E+17
+  NOTICE   main:           48    62370705       10000  1.0011590E+17
+  NOTICE   main:           48    62370710       10000  1.0002655E+17
+  NOTICE   main:           48    62370715       10000  9.9933048E+16
+  NOTICE condsk:  1 output at    8   3   0   0
+  NOTICE   main:           48    62370720       10000  9.9837056E+16
+  NOTICE parout:   18   8   3   0   0    Num=   10000
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.01
+                                                           21 12710.0  2.49
+                                                           20 11505.0  4.66
+                                                           19 10360.0  2.90
+                                                           18  9275.0  2.80
+                                                           17  8250.0  6.61
+                                                           16  7285.0  9.17
+                                                           15  6380.0  8.59
+                                                           14  5535.0  7.67
+                                                           13  4750.0  7.87
+                                                           12  4025.0  8.52
+                                                           11  3360.0  8.55
+                                                           10  2755.0  7.71
+                                                            9  2210.0  6.04
+                                                            8  1725.0  3.85
+                                                            7  1300.0  3.41
+                                                            6   935.0  3.05
+                                                            5   630.0  2.46
+                                                            4   385.0  1.59
+                                                            3   200.0  1.04
+                                                            2    75.0  0.71
+                                                            1    10.0  0.29
+  NOTICE advrng: (kg ,xyr,xy1) -  1   28   15    2   45
+  NOTICE metpos: (mtime,ftime) -     62371080    62370360
+  NOTICE metinp: CDC1 1  847   26   15    2   45 62371080 18  8  3  6
+  NOTICE   main:           49    62370726       10000  9.9783876E+16
+  NOTICE   main:           49    62370732       10000  9.9734011E+16
+  NOTICE   main:           49    62370738       10000  9.9678718E+16
+  NOTICE   main:           49    62370744       10000  9.9632658E+16
+  NOTICE   main:           49    62370750       10000  9.9580543E+16
+  NOTICE   main:           49    62370756       10000  9.9515303E+16
+  NOTICE   main:           49    62370762       10000  9.9463471E+16
+  NOTICE   main:           49    62370768       10000  9.9408538E+16
+  NOTICE   main:           49    62370774       10000  9.9353383E+16
+  NOTICE   main:           49    62370780       10000  9.9298476E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   29   15    2   45
+  NOTICE   main:           50    62370786       10000  9.9254693E+16
+  NOTICE   main:           50    62370792       10000  9.9184762E+16
+  NOTICE   main:           50    62370798       10000  9.9127957E+16
+  NOTICE   main:           50    62370804       10000  9.9065070E+16
+  NOTICE   main:           50    62370810       10000  9.9005464E+16
+  NOTICE   main:           50    62370816       10000  9.8931754E+16
+  NOTICE   main:           50    62370822       10000  9.8858800E+16
+  NOTICE   main:           50    62370828       10000  9.8780726E+16
+  NOTICE   main:           50    62370834       10000  9.8714910E+16
+  NOTICE   main:           50    62370840       10000  9.8641947E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   29   15    2   45
+  NOTICE   main:           51    62370846       10000  9.8591979E+16
+  NOTICE   main:           51    62370852       10000  9.8530432E+16
+  NOTICE   main:           51    62370858       10000  9.8479571E+16
+  NOTICE   main:           51    62370864       10000  9.8424467E+16
+  NOTICE   main:           51    62370870       10000  9.8360154E+16
+  NOTICE   main:           51    62370876       10000  9.8294647E+16
+  NOTICE metsub: (kg ,xyr,xy1) -     1   29   15    2   45 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   29   15   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   29   15    2   45
+  NOTICE metinp: CDC1 1  753   29   15    2   45 62370720 18  8  3  0
+  NOTICE metinp: CDC1 1  847   29   15    2   45 62371080 18  8  3  6
+  NOTICE   main:           51    62370882       10000  9.8216024E+16
+  NOTICE   main:           51    62370888       10000  9.8126791E+16
+  NOTICE   main:           51    62370894       10000  9.8051398E+16
+  NOTICE   main:           51    62370900       10000  9.7978898E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   30   15    2   45
+  NOTICE   main:           52    62370906       10000  9.7911811E+16
+  NOTICE   main:           52    62370912       10000  9.7836804E+16
+  NOTICE   main:           52    62370918       10000  9.7755045E+16
+  NOTICE   main:           52    62370924       10000  9.7676387E+16
+  NOTICE   main:           52    62370930       10000  9.7608689E+16
+  NOTICE   main:           52    62370936       10000  9.7536869E+16
+  NOTICE   main:           52    62370942       10000  9.7477787E+16
+  NOTICE   main:           52    62370948       10000  9.7394920E+16
+  NOTICE   main:           52    62370954       10000  9.7314888E+16
+  NOTICE   main:           52    62370960       10000  9.7217530E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   30   15    2   45
+  NOTICE   main:           53    62370966       10000  9.7113883E+16
+  NOTICE   main:           53    62370972       10000  9.7020872E+16
+  NOTICE   main:           53    62370978       10000  9.6917810E+16
+  NOTICE   main:           53    62370984       10000  9.6822994E+16
+  NOTICE   main:           53    62370990       10000  9.6725730E+16
+  NOTICE   main:           53    62370996       10000  9.6627135E+16
+  NOTICE   main:           53    62371002       10000  9.6533771E+16
+  NOTICE   main:           53    62371008       10000  9.6443396E+16
+  NOTICE   main:           53    62371014       10000  9.6332062E+16
+  NOTICE   main:           53    62371020       10000  9.6203711E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   31   15    2   45
+  NOTICE   main:           54    62371026       10000  9.6094018E+16
+  NOTICE   main:           54    62371032       10000  9.5993885E+16
+  NOTICE   main:           54    62371038       10000  9.5879639E+16
+  NOTICE   main:           54    62371044       10000  9.5768794E+16
+  NOTICE   main:           54    62371050       10000  9.5657537E+16
+  NOTICE   main:           54    62371056       10000  9.5539529E+16
+  NOTICE   main:           54    62371062       10000  9.5426339E+16
+  NOTICE   main:           54    62371068       10000  9.5307429E+16
+  NOTICE   main:           54    62371074       10000  9.5200879E+16
+  NOTICE condsk:  1 output at    8   3   6   0
+  NOTICE   main:           54    62371080       10000  9.5082982E+16
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.02
+                                                           21 12710.0  2.48
+                                                           20 11505.0  5.84
+                                                           19 10360.0  2.39
+                                                           18  9275.0  1.69
+                                                           17  8250.0  4.73
+                                                           16  7285.0  7.28
+                                                           15  6380.0 10.57
+                                                           14  5535.0  8.57
+                                                           13  4750.0  7.75
+                                                           12  4025.0  7.43
+                                                           11  3360.0  8.22
+                                                           10  2755.0  8.16
+                                                            9  2210.0  6.68
+                                                            8  1725.0  4.62
+                                                            7  1300.0  3.21
+                                                            6   935.0  3.24
+                                                            5   630.0  2.20
+                                                            4   385.0  2.11
+                                                            3   200.0  1.63
+                                                            2    75.0  0.79
+                                                            1    10.0  0.36
+  NOTICE advrng: (kg ,xyr,xy1) -  1   31   15    2   45
+  NOTICE metpos: (mtime,ftime) -     62371440    62370720
+  NOTICE metinp: CDC1 1  941   29   15    2   45 62371440 18  8  3 12
+  NOTICE   main:           55    62371086       10000  9.5004153E+16
+  NOTICE   main:           55    62371092       10000  9.4930734E+16
+  NOTICE   main:           55    62371098       10000  9.4847472E+16
+  NOTICE   main:           55    62371104       10000  9.4749710E+16
+  NOTICE   main:           55    62371110       10000  9.4661998E+16
+  NOTICE   main:           55    62371116       10000  9.4578487E+16
+  NOTICE   main:           55    62371122       10000  9.4490466E+16
+  NOTICE   main:           55    62371128       10000  9.4396054E+16
+  NOTICE   main:           55    62371134       10000  9.4306246E+16
+  NOTICE   main:           55    62371140       10000  9.4219582E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   32   15    2   45
+  NOTICE   main:           56    62371146       10000  9.4134911E+16
+  NOTICE   main:           56    62371152       10000  9.4033396E+16
+  NOTICE   main:           56    62371158       10000  9.3948278E+16
+  NOTICE   main:           56    62371164       10000  9.3856056E+16
+  NOTICE   main:           56    62371170       10000  9.3773327E+16
+  NOTICE   main:           56    62371176       10000  9.3683201E+16
+  NOTICE   main:           56    62371182       10000  9.3609611E+16
+  NOTICE   main:           56    62371188       10000  9.3533951E+16
+  NOTICE   main:           56    62371194       10000  9.3453961E+16
+  NOTICE   main:           56    62371200       10000  9.3374676E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   33   15    2   45
+  NOTICE metsub: (kg ,xyr,xy1) -     1   33   15    2   45 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   33   15   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   33   15    2   45
+  NOTICE metinp: CDC1 1  847   33   15    2   45 62371080 18  8  3  6
+  NOTICE metinp: CDC1 1  941   33   15    2   45 62371440 18  8  3 12
+  NOTICE   main:           57    62371206       10000  9.3300983E+16
+  NOTICE   main:           57    62371212       10000  9.3214543E+16
+  NOTICE   main:           57    62371218       10000  9.3122536E+16
+  NOTICE   main:           57    62371224       10000  9.3038303E+16
+  NOTICE   main:           57    62371230       10000  9.2950626E+16
+  NOTICE   main:           57    62371236       10000  9.2859744E+16
+  NOTICE   main:           57    62371242       10000  9.2764319E+16
+  NOTICE   main:           57    62371248       10000  9.2672947E+16
+  NOTICE   main:           57    62371254       10000  9.2604511E+16
+  NOTICE   main:           57    62371260       10000  9.2518698E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   33   16    2   44
+  NOTICE   main:           58    62371265       10000  9.2438227E+16
+  NOTICE   main:           58    62371270       10000  9.2355987E+16
+  NOTICE   main:           58    62371275       10000  9.2279305E+16
+  NOTICE   main:           58    62371280       10000  9.2204392E+16
+  NOTICE   main:           58    62371285       10000  9.2140071E+16
+  NOTICE   main:           58    62371290       10000  9.2088514E+16
+  NOTICE   main:           58    62371295       10000  9.2028788E+16
+  NOTICE   main:           58    62371300       10000  9.1967611E+16
+  NOTICE   main:           58    62371305       10000  9.1910385E+16
+  NOTICE   main:           58    62371310       10000  9.1850015E+16
+  NOTICE   main:           58    62371315       10000  9.1775815E+16
+  NOTICE   main:           58    62371320       10000  9.1711665E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   34   16    2   44
+  NOTICE   main:           59    62371325       10000  9.1652206E+16
+  NOTICE   main:           59    62371330       10000  9.1591165E+16
+  NOTICE   main:           59    62371335       10000  9.1523795E+16
+  NOTICE   main:           59    62371340       10000  9.1446769E+16
+  NOTICE   main:           59    62371345       10000  9.1366582E+16
+  NOTICE   main:           59    62371350       10000  9.1292871E+16
+  NOTICE   main:           59    62371355       10000  9.1221266E+16
+  NOTICE   main:           59    62371360       10000  9.1143329E+16
+  NOTICE   main:           59    62371365       10000  9.1078449E+16
+  NOTICE   main:           59    62371370       10000  9.1018621E+16
+  NOTICE   main:           59    62371375       10000  9.0947462E+16
+  NOTICE   main:           59    62371380       10000  9.0872858E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   34   16    2   44
+  NOTICE   main:           60    62371385       10000  9.0808133E+16
+  NOTICE   main:           60    62371390       10000  9.0732765E+16
+  NOTICE   main:           60    62371395       10000  9.0654820E+16
+  NOTICE   main:           60    62371400       10000  9.0576806E+16
+  NOTICE   main:           60    62371405       10000  9.0502383E+16
+  NOTICE   main:           60    62371410       10000  9.0431687E+16
+  NOTICE   main:           60    62371415       10000  9.0358982E+16
+  NOTICE   main:           60    62371420       10000  9.0300227E+16
+  NOTICE   main:           60    62371425       10000  9.0241395E+16
+  NOTICE   main:           60    62371430       10000  9.0180217E+16
+  NOTICE   main:           60    62371435       10000  9.0118773E+16
+  NOTICE condsk:  1 output at    8   3  12   0
+  NOTICE   main:           60    62371440       10000  9.0048980E+16
+                                                        Index  Height %Mass
+                                                           22 13975.0  0.01
+                                                           21 12710.0  2.04
+                                                           20 11505.0  6.50
+                                                           19 10360.0  3.56
+                                                           18  9275.0  1.17
+                                                           17  8250.0  4.20
+                                                           16  7285.0  7.00
+                                                           15  6380.0  5.39
+                                                           14  5535.0 12.34
+                                                           13  4750.0  9.03
+                                                           12  4025.0  7.02
+                                                           11  3360.0  6.99
+                                                           10  2755.0  7.60
+                                                            9  2210.0  7.00
+                                                            8  1725.0  5.26
+                                                            7  1300.0  3.99
+                                                            6   935.0  3.46
+                                                            5   630.0  2.23
+                                                            4   385.0  2.48
+                                                            3   200.0  1.59
+                                                            2    75.0  0.77
+                                                            1    10.0  0.39
+  NOTICE advrng: (kg ,xyr,xy1) -  1   35   16    2   44
+  NOTICE metpos: (mtime,ftime) -     62371800    62371080
+  NOTICE metinp: CDC1 1 1035   33   15    2   45 62371800 18  8  3 18
+  NOTICE   main:           61    62371445       10000  8.9940249E+16
+  NOTICE   main:           61    62371450       10000  8.9824534E+16
+  NOTICE   main:           61    62371455       10000  8.9721583E+16
+  NOTICE   main:           61    62371460       10000  8.9611469E+16
+  NOTICE   main:           61    62371465       10000  8.9500564E+16
+  NOTICE   main:           61    62371470       10000  8.9384884E+16
+  NOTICE   main:           61    62371475       10000  8.9274271E+16
+  NOTICE   main:           61    62371480       10000  8.9174748E+16
+  NOTICE   main:           61    62371485       10000  8.9066274E+16
+  NOTICE   main:           61    62371490       10000  8.8956246E+16
+  NOTICE   main:           61    62371495       10000  8.8849525E+16
+  NOTICE   main:           61    62371500       10000  8.8758119E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   35   16    2   44
+  NOTICE   main:           62    62371505       10000  8.8670931E+16
+  NOTICE   main:           62    62371510       10000  8.8574544E+16
+  NOTICE   main:           62    62371515       10000  8.8467084E+16
+  NOTICE   main:           62    62371520       10000  8.8364202E+16
+  NOTICE   main:           62    62371525       10000  8.8270357E+16
+  NOTICE   main:           62    62371530       10000  8.8182731E+16
+  NOTICE   main:           62    62371535       10000  8.8098429E+16
+  NOTICE   main:           62    62371540       10000  8.8014085E+16
+  NOTICE   main:           62    62371545       10000  8.7932352E+16
+  NOTICE   main:           62    62371550       10000  8.7850610E+16
+  NOTICE   main:           62    62371555       10000  8.7755064E+16
+  NOTICE   main:           62    62371560       10000  8.7650078E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   36   17    2   44
+  NOTICE   main:           63    62371565       10000  8.7563757E+16
+  NOTICE   main:           63    62371570       10000  8.7463298E+16
+  NOTICE   main:           63    62371575       10000  8.7369445E+16
+  NOTICE   main:           63    62371580       10000  8.7272567E+16
+  NOTICE   main:           63    62371585       10000  8.7178507E+16
+  NOTICE   main:           63    62371590       10000  8.7090684E+16
+  NOTICE   main:           63    62371595       10000  8.7015797E+16
+  NOTICE   main:           63    62371600       10000  8.6945265E+16
+  NOTICE   main:           63    62371605       10000  8.6864245E+16
+  NOTICE   main:           63    62371610       10000  8.6777847E+16
+  NOTICE   main:           63    62371615       10000  8.6690565E+16
+  NOTICE   main:           63    62371620       10000  8.6598455E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   36   17    2   44
+  NOTICE   main:           64    62371625       10000  8.6503201E+16
+  NOTICE   main:           64    62371630       10000  8.6419621E+16
+  NOTICE metsub: (kg ,xyr,xy1) -     1   36   17    2   44 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   36   17   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   36   17    2   44
+  NOTICE metinp: CDC1 1  941   36   17    2   44 62371440 18  8  3 12
+  NOTICE metinp: CDC1 1 1035   36   17    2   44 62371800 18  8  3 18
+  NOTICE   main:           64    62371635       10000  8.6334151E+16
+  NOTICE   main:           64    62371640       10000  8.6254763E+16
+  NOTICE   main:           64    62371645       10000  8.6158942E+16
+  NOTICE   main:           64    62371650       10000  8.6071583E+16
+  NOTICE   main:           64    62371655       10000  8.5985735E+16
+  NOTICE   main:           64    62371660       10000  8.5901012E+16
+  NOTICE   main:           64    62371665       10000  8.5821049E+16
+  NOTICE   main:           64    62371670       10000  8.5726929E+16
+  NOTICE   main:           64    62371675       10000  8.5629175E+16
+  NOTICE   main:           64    62371680       10000  8.5542735E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   37   17    2   44
+  NOTICE   main:           65    62371685       10000  8.5461852E+16
+  NOTICE   main:           65    62371690       10000  8.5371280E+16
+  NOTICE   main:           65    62371695       10000  8.5269480E+16
+  NOTICE   main:           65    62371700       10000  8.5186072E+16
+  NOTICE   main:           65    62371705       10000  8.5102346E+16
+  NOTICE   main:           65    62371710       10000  8.5022975E+16
+  NOTICE   main:           65    62371715       10000  8.4936895E+16
+  NOTICE   main:           65    62371720       10000  8.4849201E+16
+  NOTICE   main:           65    62371725       10000  8.4769890E+16
+  NOTICE   main:           65    62371730       10000  8.4685476E+16
+  NOTICE   main:           65    62371735       10000  8.4593349E+16
+  NOTICE   main:           65    62371740       10000  8.4518248E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   38   17    2   44
+  NOTICE   main:           66    62371745       10000  8.4430776E+16
+  NOTICE   main:           66    62371750       10000  8.4334105E+16
+  NOTICE   main:           66    62371755       10000  8.4261486E+16
+  NOTICE   main:           66    62371760       10000  8.4179392E+16
+  NOTICE   main:           66    62371765       10000  8.4094747E+16
+  NOTICE   main:           66    62371770       10000  8.4001048E+16
+  NOTICE   main:           66    62371775       10000  8.3904222E+16
+  NOTICE   main:           66    62371780       10000  8.3802895E+16
+  NOTICE   main:           66    62371785       10000  8.3717004E+16
+  NOTICE   main:           66    62371790       10000  8.3632625E+16
+  NOTICE   main:           66    62371795       10000  8.3545300E+16
+  NOTICE condsk:  1 output at    8   3  18   0
+  NOTICE   main:           66    62371800       10000  8.3450545E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  1.35
+                                                           20 11505.0  5.17
+                                                           19 10360.0  7.20
+                                                           18  9275.0  0.93
+                                                           17  8250.0  3.61
+                                                           16  7285.0  7.64
+                                                           15  6380.0  4.79
+                                                           14  5535.0  5.14
+                                                           13  4750.0 12.95
+                                                           12  4025.0  9.07
+                                                           11  3360.0  6.70
+                                                           10  2755.0  6.15
+                                                            9  2210.0  6.11
+                                                            8  1725.0  5.39
+                                                            7  1300.0  4.29
+                                                            6   935.0  4.08
+                                                            5   630.0  3.36
+                                                            4   385.0  2.86
+                                                            3   200.0  1.70
+                                                            2    75.0  1.09
+                                                            1    10.0  0.42
+  NOTICE advrng: (kg ,xyr,xy1) -  1   39   18    2   44
+  NOTICE metpos: (mtime,ftime) -     62372160    62371440
+  NOTICE metinp: CDC1 1 1129   36   17    2   44 62372160 18  8  4  0
+  NOTICE   main:           67    62371805       10000  8.3397296E+16
+  NOTICE   main:           67    62371810       10000  8.3327107E+16
+  NOTICE   main:           67    62371815       10000  8.3237566E+16
+  NOTICE   main:           67    62371820       10000  8.3161605E+16
+  NOTICE   main:           67    62371825       10000  8.3076212E+16
+  NOTICE   main:           67    62371830       10000  8.3002932E+16
+  NOTICE   main:           67    62371835       10000  8.2937408E+16
+  NOTICE   main:           67    62371840       10000  8.2864531E+16
+  NOTICE   main:           67    62371845       10000  8.2800286E+16
+  NOTICE   main:           67    62371850       10000  8.2716784E+16
+  NOTICE   main:           67    62371855       10000  8.2631640E+16
+  NOTICE   main:           67    62371860       10000  8.2539393E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   18    2   44
+  NOTICE   main:           68    62371865       10000  8.2456251E+16
+  NOTICE   main:           68    62371870       10000  8.2382335E+16
+  NOTICE   main:           68    62371875       10000  8.2283550E+16
+  NOTICE   main:           68    62371880       10000  8.2190161E+16
+  NOTICE   main:           68    62371885       10000  8.2103067E+16
+  NOTICE   main:           68    62371890       10000  8.1999421E+16
+  NOTICE   main:           68    62371895       10000  8.1909244E+16
+  NOTICE   main:           68    62371900       10000  8.1831625E+16
+  NOTICE   main:           68    62371905       10000  8.1744867E+16
+  NOTICE   main:           68    62371910       10000  8.1651907E+16
+  NOTICE   main:           68    62371915       10000  8.1560080E+16
+  NOTICE   main:           68    62371920       10000  8.1476921E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   40   18    2   44
+  NOTICE   main:           69    62371925       10000  8.1369427E+16
+  NOTICE   main:           69    62371930       10000  8.1280203E+16
+  NOTICE   main:           69    62371935       10000  8.1182149E+16
+  NOTICE   main:           69    62371940       10000  8.1078924E+16
+  NOTICE   main:           69    62371945       10000  8.0984684E+16
+  NOTICE   main:           69    62371950       10000  8.0880883E+16
+  NOTICE   main:           69    62371955       10000  8.0796074E+16
+  NOTICE   main:           69    62371960       10000  8.0711893E+16
+  NOTICE metsub: (kg ,xyr,xy1) -     1   40   18    2   44 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   40   18   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   40   18    2   44
+  NOTICE metinp: CDC1 1 1035   40   18    2   44 62371800 18  8  3 18
+  NOTICE metinp: CDC1 1 1129   40   18    2   44 62372160 18  8  4  0
+  NOTICE   main:           69    62371965       10000  8.0606598E+16
+  NOTICE   main:           69    62371970       10000  8.0515355E+16
+  NOTICE   main:           69    62371975       10000  8.0414853E+16
+  NOTICE   main:           69    62371980       10000  8.0302394E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   41   18    2   44
+  NOTICE   main:           70    62371985       10000  8.0199280E+16
+  NOTICE   main:           70    62371990       10000  8.0097249E+16
+  NOTICE   main:           70    62371995       10000  7.9999856E+16
+  NOTICE   main:           70    62372000       10000  7.9884201E+16
+  NOTICE   main:           70    62372005       10000  7.9775075E+16
+  NOTICE   main:           70    62372010       10000  7.9671154E+16
+  NOTICE   main:           70    62372015       10000  7.9548318E+16
+  NOTICE   main:           70    62372020       10000  7.9416222E+16
+  NOTICE   main:           70    62372025       10000  7.9286299E+16
+  NOTICE   main:           70    62372030       10000  7.9159872E+16
+  NOTICE   main:           70    62372035       10000  7.9026694E+16
+  NOTICE   main:           70    62372040       10000  7.8891583E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   41   19    2   43
+  NOTICE   main:           71    62372045       10000  7.8762699E+16
+  NOTICE   main:           71    62372050       10000  7.8650386E+16
+  NOTICE   main:           71    62372055       10000  7.8542118E+16
+  NOTICE   main:           71    62372060       10000  7.8443609E+16
+  NOTICE   main:           71    62372065       10000  7.8330806E+16
+  NOTICE   main:           71    62372070       10000  7.8221027E+16
+  NOTICE   main:           71    62372075       10000  7.8099917E+16
+  NOTICE   main:           71    62372080       10000  7.7986161E+16
+  NOTICE   main:           71    62372085       10000  7.7876407E+16
+  NOTICE   main:           71    62372090       10000  7.7766662E+16
+  NOTICE   main:           71    62372095       10000  7.7674114E+16
+  NOTICE   main:           71    62372100       10000  7.7571233E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   42   19    2   43
+  NOTICE   main:           72    62372105       10000  7.7473857E+16
+  NOTICE   main:           72    62372110       10000  7.7375021E+16
+  NOTICE   main:           72    62372115       10000  7.7276331E+16
+  NOTICE   main:           72    62372120       10000  7.7158598E+16
+  NOTICE   main:           72    62372125       10000  7.7051997E+16
+  NOTICE   main:           72    62372130       10000  7.6952268E+16
+  NOTICE   main:           72    62372135       10000  7.6845950E+16
+  NOTICE   main:           72    62372140       10000  7.6727873E+16
+  NOTICE   main:           72    62372145       10000  7.6618050E+16
+  NOTICE   main:           72    62372150       10000  7.6508005E+16
+  NOTICE   main:           72    62372155       10000  7.6402701E+16
+  NOTICE condsk:  1 output at    8   4   0   0
+  NOTICE   main:           72    62372160       10000  7.6283430E+16
+  NOTICE parout:   18   8   4   0   0    Num=   10000
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.91
+                                                           20 11505.0  4.62
+                                                           19 10360.0  9.51
+                                                           18  9275.0  1.22
+                                                           17  8250.0  3.44
+                                                           16  7285.0  7.87
+                                                           15  6380.0  5.81
+                                                           14  5535.0  4.85
+                                                           13  4750.0  4.81
+                                                           12  4025.0 12.52
+                                                           11  3360.0  9.72
+                                                           10  2755.0  6.40
+                                                            9  2210.0  5.68
+                                                            8  1725.0  4.51
+                                                            7  1300.0  4.13
+                                                            6   935.0  2.87
+                                                            5   630.0  3.28
+                                                            4   385.0  2.85
+                                                            3   200.0  2.78
+                                                            2    75.0  1.51
+                                                            1    10.0  0.69
+  NOTICE advrng: (kg ,xyr,xy1) -  1   42   20    2   43
+  NOTICE metpos: (mtime,ftime) -     62372520    62371800
+  NOTICE metinp: CDC1 1 1223   40   18    2   44 62372520 18  8  4  6
+  NOTICE   main:           73    62372165       10000  7.6137521E+16
+  NOTICE   main:           73    62372170       10000  7.5990796E+16
+  NOTICE   main:           73    62372175       10000  7.5862205E+16
+  NOTICE   main:           73    62372180       10000  7.5735735E+16
+  NOTICE   main:           73    62372185       10000  7.5598580E+16
+  NOTICE   main:           73    62372190       10000  7.5442054E+16
+  NOTICE   main:           73    62372195       10000  7.5300543E+16
+  NOTICE   main:           73    62372200       10000  7.5152865E+16
+  NOTICE   main:           73    62372205       10000  7.5040664E+16
+  NOTICE   main:           73    62372210       10000  7.4920035E+16
+  NOTICE   main:           73    62372215       10000  7.4811493E+16
+  NOTICE   main:           73    62372220       10000  7.4698990E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   43   20    2   43
+  NOTICE   main:           74    62372225       10000  7.4570021E+16
+  NOTICE   main:           74    62372230       10000  7.4453945E+16
+  NOTICE   main:           74    62372235       10000  7.4338127E+16
+  NOTICE   main:           74    62372240       10000  7.4211692E+16
+  NOTICE   main:           74    62372245       10000  7.4086227E+16
+  NOTICE   main:           74    62372250       10000  7.3971096E+16
+  NOTICE   main:           74    62372255       10000  7.3859178E+16
+  NOTICE   main:           74    62372260       10000  7.3761038E+16
+  NOTICE   main:           74    62372265       10000  7.3667846E+16
+  NOTICE   main:           74    62372270       10000  7.3554760E+16
+  NOTICE   main:           74    62372275       10000  7.3447763E+16
+  NOTICE   main:           74    62372280       10000  7.3352389E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   43   20    2   43
+  NOTICE   main:           75    62372285       10000  7.3249138E+16
+  NOTICE   main:           75    62372290       10000  7.3153824E+16
+  NOTICE   main:           75    62372295       10000  7.3049156E+16
+  NOTICE   main:           75    62372300       10000  7.2947812E+16
+  NOTICE   main:           75    62372305       10000  7.2861294E+16
+  NOTICE   main:           75    62372310       10000  7.2765783E+16
+  NOTICE   main:           75    62372315       10000  7.2659791E+16
+  NOTICE   main:           75    62372320       10000  7.2562974E+16
+  NOTICE   main:           75    62372325       10000  7.2476379E+16
+  NOTICE   main:           75    62372330       10000  7.2396699E+16
+  NOTICE   main:           75    62372335       10000  7.2316855E+16
+  NOTICE   main:           75    62372340       10000  7.2235492E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   44   20    2   43
+  NOTICE   main:           76    62372345       10000  7.2150305E+16
+  NOTICE   main:           76    62372350       10000  7.2072961E+16
+  NOTICE   main:           76    62372355       10000  7.2004641E+16
+  NOTICE   main:           76    62372360       10000  7.1932056E+16
+  NOTICE   main:           76    62372365       10000  7.1847119E+16
+  NOTICE   main:           76    62372370       10000  7.1759120E+16
+  NOTICE   main:           76    62372375       10000  7.1668564E+16
+  NOTICE   main:           76    62372380       10000  7.1564072E+16
+  NOTICE   main:           76    62372385       10000  7.1458773E+16
+  NOTICE   main:           76    62372390       10000  7.1362419E+16
+  NOTICE metsub: (kg ,xyr,xy1) -     1   44   20    2   43 shift
+  NOTICE advpnt: (kg,nx,ny,nz) -     1   44   20   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1   44   20    2   43
+  NOTICE metinp: CDC1 1 1129   44   20    2   43 62372160 18  8  4  0
+  NOTICE metinp: CDC1 1 1223   44   20    2   43 62372520 18  8  4  6
+  NOTICE   main:           76    62372395       10000  7.1267264E+16
+  NOTICE   main:           76    62372400       10000  7.1166680E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   45   20    2   43
+  NOTICE   main:           77    62372405       10000  7.1050046E+16
+  NOTICE   main:           77    62372410       10000  7.0951507E+16
+  NOTICE   main:           77    62372415       10000  7.0863426E+16
+  NOTICE   main:           77    62372420       10000  7.0782573E+16
+  NOTICE   main:           77    62372425       10000  7.0690411E+16
+  NOTICE   main:           77    62372430       10000  7.0589441E+16
+  NOTICE   main:           77    62372435       10000  7.0493577E+16
+  NOTICE   main:           77    62372440       10000  7.0387569E+16
+  NOTICE   main:           77    62372445       10000  7.0301554E+16
+  NOTICE   main:           77    62372450       10000  7.0218167E+16
+  NOTICE   main:           77    62372455       10000  7.0135506E+16
+  NOTICE   main:           77    62372460       10000  7.0055929E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   45   21    2   43
+  NOTICE   main:           78    62372465       10000  6.9976635E+16
+  NOTICE   main:           78    62372470       10000  6.9896985E+16
+  NOTICE   main:           78    62372475       10000  6.9815853E+16
+  NOTICE   main:           78    62372480       10000  6.9723060E+16
+  NOTICE   main:           78    62372485       10000  6.9638419E+16
+  NOTICE   main:           78    62372490       10000  6.9553628E+16
+  NOTICE   main:           78    62372495       10000  6.9454779E+16
+  NOTICE   main:           78    62372500       10000  6.9366033E+16
+  NOTICE   main:           78    62372505       10000  6.9279287E+16
+  NOTICE   main:           78    62372510       10000  6.9178007E+16
+  NOTICE   main:           78    62372515       10000  6.9074709E+16
+  NOTICE condsk:  1 output at    8   4   6   0
+  NOTICE   main:           78    62372520       10000  6.8978081E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.86
+                                                           20 11505.0  4.05
+                                                           19 10360.0  9.10
+                                                           18  9275.0  4.51
+                                                           17  8250.0  1.60
+                                                           16  7285.0  9.30
+                                                           15  6380.0  7.31
+                                                           14  5535.0  5.49
+                                                           13  4750.0  4.78
+                                                           12  4025.0  3.63
+                                                           11  3360.0 11.28
+                                                           10  2755.0 11.30
+                                                            9  2210.0  6.79
+                                                            8  1725.0  4.32
+                                                            7  1300.0  3.77
+                                                            6   935.0  2.44
+                                                            5   630.0  2.81
+                                                            4   385.0  2.60
+                                                            3   200.0  1.86
+                                                            2    75.0  1.49
+                                                            1    10.0  0.69
+  NOTICE advrng: (kg ,xyr,xy1) -  1   46   21    2   43
+  NOTICE metpos: (mtime,ftime) -     62372880    62372160
+  NOTICE metinp: CDC1 1 1317   44   20    2   43 62372880 18  8  4 12
+  NOTICE   main:           79    62372525       10000  6.8906991E+16
+  NOTICE   main:           79    62372530       10000  6.8832417E+16
+  NOTICE   main:           79    62372535       10000  6.8752020E+16
+  NOTICE   main:           79    62372540       10000  6.8664798E+16
+  NOTICE   main:           79    62372545       10000  6.8576708E+16
+  NOTICE   main:           79    62372550       10000  6.8479667E+16
+  NOTICE   main:           79    62372555       10000  6.8392256E+16
+  NOTICE   main:           79    62372560       10000  6.8298372E+16
+  NOTICE   main:           79    62372565       10000  6.8217167E+16
+  NOTICE   main:           79    62372570       10000  6.8139699E+16
+  NOTICE   main:           79    62372575       10000  6.8054951E+16
+  NOTICE   main:           79    62372580       10000  6.7979780E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   48   22    1   42
+  NOTICE   main:           80    62372584       10000  6.7911331E+16
+  NOTICE   main:           80    62372588       10000  6.7839219E+16
+  NOTICE   main:           80    62372592       10000  6.7772205E+16
+  NOTICE   main:           80    62372596       10000  6.7709172E+16
+  NOTICE   main:           80    62372600       10000  6.7644992E+16
+  NOTICE   main:           80    62372604       10000  6.7579206E+16
+  NOTICE   main:           80    62372608       10000  6.7519051E+16
+  NOTICE   main:           80    62372612       10000  6.7450688E+16
+  NOTICE   main:           80    62372616       10000  6.7378485E+16
+  NOTICE   main:           80    62372620       10000  6.7310384E+16
+  NOTICE   main:           80    62372624       10000  6.7245191E+16
+  NOTICE   main:           80    62372628       10000  6.7188196E+16
+  NOTICE   main:           80    62372632       10000  6.7131138E+16
+  NOTICE   main:           80    62372636       10000  6.7069127E+16
+  NOTICE   main:           80    62372640       10000  6.7008117E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   49   23    1   42
+  NOTICE   main:           81    62372644       10000  6.6955723E+16
+  NOTICE   main:           81    62372648       10000  6.6891255E+16
+  NOTICE   main:           81    62372652       10000  6.6834682E+16
+  NOTICE   main:           81    62372656       10000  6.6768045E+16
+  NOTICE   main:           81    62372660       10000  6.6702092E+16
+  NOTICE   main:           81    62372664       10000  6.6641353E+16
+  NOTICE   main:           81    62372668       10000  6.6577654E+16
+  NOTICE   main:           81    62372672       10000  6.6508196E+16
+  NOTICE   main:           81    62372676       10000  6.6438183E+16
+  NOTICE   main:           81    62372680       10000  6.6365826E+16
+  NOTICE   main:           81    62372684       10000  6.6287361E+16
+  NOTICE   main:           81    62372688       10000  6.6215163E+16
+  NOTICE   main:           81    62372692       10000  6.6151554E+16
+  NOTICE   main:           81    62372696       10000  6.6081723E+16
+  NOTICE   main:           81    62372700       10000  6.6008493E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1   50   23    1   42
+  NOTICE   main:           82    62372704       10000  6.5941337E+16
+  NOTICE   main:           82    62372708       10000  6.5876724E+16
+  NOTICE   main:           82    62372712       10000  6.5802554E+16
+  NOTICE   main:           82    62372716       10000  6.5730304E+16
+  NOTICE   main:           82    62372720       10000  6.5664990E+16
+  NOTICE   main:           82    62372724       10000  6.5600136E+16
+  NOTICE metsub: (kg ,xyr,xy1) -     1   50   23    1   42 shift
+  NOTICE metsub: switch to global grid
+  NOTICE advpnt: (kg,nx,ny,nz) -     1  144   73   40
+  NOTICE metgrd: (kg, xyr,xy1) -     1  144   73    1    1
+  NOTICE metinp: CDC1 1 1223  144   73    1    1 62372520 18  8  4  6
+  NOTICE metinp: CDC1 1 1317  144   73    1    1 62372880 18  8  4 12
+  NOTICE   main:           82    62372728       10000  6.5531795E+16
+  NOTICE   main:           82    62372732       10000  6.5455246E+16
+  NOTICE   main:           82    62372736       10000  6.5392986E+16
+  NOTICE   main:           82    62372740       10000  6.5332277E+16
+  NOTICE   main:           82    62372744       10000  6.5267496E+16
+  NOTICE   main:           82    62372748       10000  6.5208066E+16
+  NOTICE   main:           82    62372752       10000  6.5139604E+16
+  NOTICE   main:           82    62372756       10000  6.5075519E+16
+  NOTICE   main:           82    62372760       10000  6.5007371E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           83    62372764       10000  6.4939321E+16
+  NOTICE   main:           83    62372768       10000  6.4873686E+16
+  NOTICE   main:           83    62372772       10000  6.4810386E+16
+  NOTICE   main:           83    62372776       10000  6.4742603E+16
+  NOTICE   main:           83    62372780       10000  6.4670255E+16
+  NOTICE   main:           83    62372784       10000  6.4592842E+16
+  NOTICE   main:           83    62372788       10000  6.4518419E+16
+  NOTICE   main:           83    62372792       10000  6.4451164E+16
+  NOTICE   main:           83    62372796       10000  6.4388831E+16
+  NOTICE   main:           83    62372800       10000  6.4328895E+16
+  NOTICE   main:           83    62372804       10000  6.4267039E+16
+  NOTICE   main:           83    62372808       10000  6.4201927E+16
+  NOTICE   main:           83    62372812       10000  6.4134277E+16
+  NOTICE   main:           83    62372816       10000  6.4069393E+16
+  NOTICE   main:           83    62372820       10000  6.4012085E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           84    62372824       10000  6.3955602E+16
+  NOTICE   main:           84    62372828       10000  6.3898393E+16
+  NOTICE   main:           84    62372832       10000  6.3844809E+16
+  NOTICE   main:           84    62372836       10000  6.3792316E+16
+  NOTICE   main:           84    62372840       10000  6.3737980E+16
+  NOTICE   main:           84    62372844       10000  6.3684993E+16
+  NOTICE   main:           84    62372848       10000  6.3632032E+16
+  NOTICE   main:           84    62372852       10000  6.3577014E+16
+  NOTICE   main:           84    62372856       10000  6.3520526E+16
+  NOTICE   main:           84    62372860       10000  6.3468536E+16
+  NOTICE   main:           84    62372864       10000  6.3417121E+16
+  NOTICE   main:           84    62372868       10000  6.3370091E+16
+  NOTICE   main:           84    62372872       10000  6.3323649E+16
+  NOTICE   main:           84    62372876       10000  6.3273394E+16
+  NOTICE condsk:  1 output at    8   4  12   0
+  NOTICE   main:           84    62372880       10000  6.3217941E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  1.00
+                                                           20 11505.0  5.26
+                                                           19 10360.0  7.11
+                                                           18  9275.0  6.96
+                                                           17  8250.0  1.92
+                                                           16  7285.0  8.82
+                                                           15  6380.0  8.73
+                                                           14  5535.0  6.32
+                                                           13  4750.0  5.08
+                                                           12  4025.0  3.33
+                                                           11  3360.0  2.89
+                                                           10  2755.0  9.72
+                                                            9  2210.0 12.36
+                                                            8  1725.0  6.01
+                                                            7  1300.0  3.72
+                                                            6   935.0  2.20
+                                                            5   630.0  2.93
+                                                            4   385.0  2.22
+                                                            3   200.0  1.64
+                                                            2    75.0  1.10
+                                                            1    10.0  0.69
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62373240    62372520
+  NOTICE metinp: CDC1 1 1411  144   73    1    1 62373240 18  8  4 18
+  NOTICE   main:           85    62372884       10000  6.3167506E+16
+  NOTICE   main:           85    62372888       10000  6.3113058E+16
+  NOTICE   main:           85    62372892       10000  6.3063215E+16
+  NOTICE   main:           85    62372896       10000  6.3009837E+16
+  NOTICE   main:           85    62372900       10000  6.2957499E+16
+  NOTICE   main:           85    62372904       10000  6.2910005E+16
+  NOTICE   main:           85    62372908       10000  6.2855730E+16
+  NOTICE   main:           85    62372912       10000  6.2794110E+16
+  NOTICE   main:           85    62372916       10000  6.2737640E+16
+  NOTICE   main:           85    62372920       10000  6.2676282E+16
+  NOTICE   main:           85    62372924       10000  6.2621353E+16
+  NOTICE   main:           85    62372928       10000  6.2565373E+16
+  NOTICE   main:           85    62372932       10000  6.2514280E+16
+  NOTICE   main:           85    62372936       10000  6.2464295E+16
+  NOTICE   main:           85    62372940       10000  6.2412631E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           86    62372944       10000  6.2366563E+16
+  NOTICE   main:           86    62372948       10000  6.2320070E+16
+  NOTICE   main:           86    62372952       10000  6.2275540E+16
+  NOTICE   main:           86    62372956       10000  6.2231877E+16
+  NOTICE   main:           86    62372960       10000  6.2188249E+16
+  NOTICE   main:           86    62372964       10000  6.2136220E+16
+  NOTICE   main:           86    62372968       10000  6.2083903E+16
+  NOTICE   main:           86    62372972       10000  6.2029893E+16
+  NOTICE   main:           86    62372976       10000  6.1978319E+16
+  NOTICE   main:           86    62372980       10000  6.1926252E+16
+  NOTICE   main:           86    62372984       10000  6.1874879E+16
+  NOTICE   main:           86    62372988       10000  6.1824456E+16
+  NOTICE   main:           86    62372992       10000  6.1775481E+16
+  NOTICE   main:           86    62372996       10000  6.1727485E+16
+  NOTICE   main:           86    62373000       10000  6.1682083E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           87    62373004       10000  6.1636659E+16
+  NOTICE   main:           87    62373008       10000  6.1590677E+16
+  NOTICE   main:           87    62373012       10000  6.1548273E+16
+  NOTICE   main:           87    62373016       10000  6.1508691E+16
+  NOTICE   main:           87    62373020       10000  6.1467038E+16
+  NOTICE   main:           87    62373024       10000  6.1427773E+16
+  NOTICE   main:           87    62373028       10000  6.1385541E+16
+  NOTICE   main:           87    62373032       10000  6.1343948E+16
+  NOTICE   main:           87    62373036       10000  6.1299882E+16
+  NOTICE   main:           87    62373040       10000  6.1261850E+16
+  NOTICE   main:           87    62373044       10000  6.1223445E+16
+  NOTICE   main:           87    62373048       10000  6.1183437E+16
+  NOTICE   main:           87    62373052       10000  6.1139860E+16
+  NOTICE   main:           87    62373056       10000  6.1093393E+16
+  NOTICE   main:           87    62373060       10000  6.1041690E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           88    62373064       10000  6.0998844E+16
+  NOTICE   main:           88    62373068       10000  6.0956585E+16
+  NOTICE   main:           88    62373072       10000  6.0909817E+16
+  NOTICE   main:           88    62373076       10000  6.0864274E+16
+  NOTICE   main:           88    62373080       10000  6.0826328E+16
+  NOTICE   main:           88    62373084       10000  6.0781080E+16
+  NOTICE   main:           88    62373088       10000  6.0735253E+16
+  NOTICE   main:           88    62373092       10000  6.0691672E+16
+  NOTICE   main:           88    62373096       10000  6.0646394E+16
+  NOTICE   main:           88    62373100       10000  6.0599390E+16
+  NOTICE   main:           88    62373104       10000  6.0553494E+16
+  NOTICE   main:           88    62373108       10000  6.0510085E+16
+  NOTICE   main:           88    62373112       10000  6.0465696E+16
+  NOTICE   main:           88    62373116       10000  6.0419289E+16
+  NOTICE   main:           88    62373120       10000  6.0375541E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           89    62373124       10000  6.0330710E+16
+  NOTICE   main:           89    62373128       10000  6.0285578E+16
+  NOTICE   main:           89    62373132       10000  6.0238918E+16
+  NOTICE   main:           89    62373136       10000  6.0196153E+16
+  NOTICE   main:           89    62373140       10000  6.0149552E+16
+  NOTICE   main:           89    62373144       10000  6.0108432E+16
+  NOTICE   main:           89    62373148       10000  6.0067725E+16
+  NOTICE   main:           89    62373152       10000  6.0035942E+16
+  NOTICE   main:           89    62373156       10000  5.9997730E+16
+  NOTICE   main:           89    62373160       10000  5.9952070E+16
+  NOTICE   main:           89    62373164       10000  5.9909790E+16
+  NOTICE   main:           89    62373168       10000  5.9862460E+16
+  NOTICE   main:           89    62373172       10000  5.9814781E+16
+  NOTICE   main:           89    62373176       10000  5.9774383E+16
+  NOTICE   main:           89    62373180       10000  5.9731708E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           90    62373184       10000  5.9691108E+16
+  NOTICE   main:           90    62373188       10000  5.9649657E+16
+  NOTICE   main:           90    62373192       10000  5.9604895E+16
+  NOTICE   main:           90    62373196       10000  5.9562963E+16
+  NOTICE   main:           90    62373200       10000  5.9516895E+16
+  NOTICE   main:           90    62373204       10000  5.9470527E+16
+  NOTICE   main:           90    62373208       10000  5.9432624E+16
+  NOTICE   main:           90    62373212       10000  5.9396838E+16
+  NOTICE   main:           90    62373216       10000  5.9366060E+16
+  NOTICE   main:           90    62373220       10000  5.9329918E+16
+  NOTICE   main:           90    62373224       10000  5.9291809E+16
+  NOTICE   main:           90    62373228       10000  5.9253150E+16
+  NOTICE   main:           90    62373232       10000  5.9212253E+16
+  NOTICE   main:           90    62373236       10000  5.9171541E+16
+  NOTICE condsk:  1 output at    8   4  18   0
+  NOTICE   main:           90    62373240       10000  5.9136726E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.82
+                                                           20 11505.0  6.00
+                                                           19 10360.0  7.06
+                                                           18  9275.0  6.94
+                                                           17  8250.0  3.24
+                                                           16  7285.0  6.29
+                                                           15  6380.0 10.90
+                                                           14  5535.0  7.39
+                                                           13  4750.0  5.11
+                                                           12  4025.0  3.54
+                                                           11  3360.0  2.63
+                                                           10  2755.0  3.22
+                                                            9  2210.0  7.21
+                                                            8  1725.0 10.91
+                                                            7  1300.0  6.55
+                                                            6   935.0  4.14
+                                                            5   630.0  3.28
+                                                            4   385.0  1.93
+                                                            3   200.0  1.63
+                                                            2    75.0  0.81
+                                                            1    10.0  0.41
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62373600    62372880
+  NOTICE metinp: CDC1 1 1505  144   73    1    1 62373600 18  8  5  0
+  NOTICE   main:           91    62373244       10000  5.9099845E+16
+  NOTICE   main:           91    62373248       10000  5.9065979E+16
+  NOTICE   main:           91    62373252       10000  5.9031560E+16
+  NOTICE   main:           91    62373256       10000  5.8995877E+16
+  NOTICE   main:           91    62373260       10000  5.8960697E+16
+  NOTICE   main:           91    62373264       10000  5.8928029E+16
+  NOTICE   main:           91    62373268       10000  5.8901456E+16
+  NOTICE   main:           91    62373272       10000  5.8873947E+16
+  NOTICE   main:           91    62373276       10000  5.8850192E+16
+  NOTICE   main:           91    62373280       10000  5.8819474E+16
+  NOTICE   main:           91    62373284       10000  5.8787352E+16
+  NOTICE   main:           91    62373288       10000  5.8755084E+16
+  NOTICE   main:           91    62373292       10000  5.8721832E+16
+  NOTICE   main:           91    62373296       10000  5.8695182E+16
+  NOTICE   main:           91    62373300       10000  5.8669142E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           92    62373304       10000  5.8638162E+16
+  NOTICE   main:           92    62373308       10000  5.8603506E+16
+  NOTICE   main:           92    62373312       10000  5.8570375E+16
+  NOTICE   main:           92    62373316       10000  5.8542152E+16
+  NOTICE   main:           92    62373320       10000  5.8517774E+16
+  NOTICE   main:           92    62373324       10000  5.8475713E+16
+  NOTICE   main:           92    62373328       10000  5.8432356E+16
+  NOTICE   main:           92    62373332       10000  5.8393070E+16
+  NOTICE   main:           92    62373336       10000  5.8351842E+16
+  NOTICE   main:           92    62373340       10000  5.8317706E+16
+  NOTICE   main:           92    62373344       10000  5.8289432E+16
+  NOTICE   main:           92    62373348       10000  5.8258577E+16
+  NOTICE   main:           92    62373352       10000  5.8226756E+16
+  NOTICE   main:           92    62373356       10000  5.8197181E+16
+  NOTICE   main:           92    62373360       10000  5.8170655E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           93    62373364       10000  5.8135316E+16
+  NOTICE   main:           93    62373368       10000  5.8098456E+16
+  NOTICE   main:           93    62373372       10000  5.8066051E+16
+  NOTICE   main:           93    62373376       10000  5.8031468E+16
+  NOTICE   main:           93    62373380       10000  5.7996679E+16
+  NOTICE   main:           93    62373384       10000  5.7965836E+16
+  NOTICE   main:           93    62373388       10000  5.7932791E+16
+  NOTICE   main:           93    62373392       10000  5.7900239E+16
+  NOTICE   main:           93    62373396       10000  5.7872198E+16
+  NOTICE   main:           93    62373400       10000  5.7845887E+16
+  NOTICE   main:           93    62373404       10000  5.7814933E+16
+  NOTICE   main:           93    62373408       10000  5.7778009E+16
+  NOTICE   main:           93    62373412       10000  5.7740041E+16
+  NOTICE   main:           93    62373416       10000  5.7705948E+16
+  NOTICE   main:           93    62373420       10000  5.7671189E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           94    62373424       10000  5.7632787E+16
+  NOTICE   main:           94    62373428       10000  5.7592020E+16
+  NOTICE   main:           94    62373432       10000  5.7554550E+16
+  NOTICE   main:           94    62373436       10000  5.7515483E+16
+  NOTICE   main:           94    62373440       10000  5.7478439E+16
+  NOTICE   main:           94    62373444       10000  5.7441915E+16
+  NOTICE   main:           94    62373448       10000  5.7406894E+16
+  NOTICE   main:           94    62373452       10000  5.7367681E+16
+  NOTICE   main:           94    62373456       10000  5.7333806E+16
+  NOTICE   main:           94    62373460       10000  5.7298308E+16
+  NOTICE   main:           94    62373464       10000  5.7254869E+16
+  NOTICE   main:           94    62373468       10000  5.7214625E+16
+  NOTICE   main:           94    62373472       10000  5.7169193E+16
+  NOTICE   main:           94    62373476       10000  5.7127682E+16
+  NOTICE   main:           94    62373480       10000  5.7088198E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           95    62373484       10000  5.7054238E+16
+  NOTICE   main:           95    62373488       10000  5.7014042E+16
+  NOTICE   main:           95    62373492       10000  5.6974605E+16
+  NOTICE   main:           95    62373496       10000  5.6944150E+16
+  NOTICE   main:           95    62373500       10000  5.6911598E+16
+  NOTICE   main:           95    62373504       10000  5.6875495E+16
+  NOTICE   main:           95    62373508       10000  5.6847277E+16
+  NOTICE   main:           95    62373512       10000  5.6810580E+16
+  NOTICE   main:           95    62373516       10000  5.6762133E+16
+  NOTICE   main:           95    62373520       10000  5.6720154E+16
+  NOTICE   main:           95    62373524       10000  5.6679803E+16
+  NOTICE   main:           95    62373528       10000  5.6634448E+16
+  NOTICE   main:           95    62373532       10000  5.6588333E+16
+  NOTICE   main:           95    62373536       10000  5.6555618E+16
+  NOTICE   main:           95    62373540       10000  5.6518274E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           96    62373544       10000  5.6477501E+16
+  NOTICE   main:           96    62373548       10000  5.6437322E+16
+  NOTICE   main:           96    62373552       10000  5.6396228E+16
+  NOTICE   main:           96    62373556       10000  5.6353033E+16
+  NOTICE   main:           96    62373560       10000  5.6308945E+16
+  NOTICE   main:           96    62373564       10000  5.6269792E+16
+  NOTICE   main:           96    62373568       10000  5.6228419E+16
+  NOTICE   main:           96    62373572       10000  5.6186328E+16
+  NOTICE   main:           96    62373576       10000  5.6142692E+16
+  NOTICE   main:           96    62373580       10000  5.6106068E+16
+  NOTICE   main:           96    62373584       10000  5.6059502E+16
+  NOTICE   main:           96    62373588       10000  5.6026590E+16
+  NOTICE   main:           96    62373592       10000  5.5991702E+16
+  NOTICE   main:           96    62373596       10000  5.5958188E+16
+  NOTICE condsk:  1 output at    8   5   0   0
+  NOTICE   main:           96    62373600       10000  5.5919027E+16
+  NOTICE parout:   18   8   5   0   0    Num=   10000
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.55
+                                                           20 11505.0  7.02
+                                                           19 10360.0  7.38
+                                                           18  9275.0  6.89
+                                                           17  8250.0  3.80
+                                                           16  7285.0  2.88
+                                                           15  6380.0 11.64
+                                                           14  5535.0  8.21
+                                                           13  4750.0  6.70
+                                                           12  4025.0  3.82
+                                                           11  3360.0  3.03
+                                                           10  2755.0  3.05
+                                                            9  2210.0  3.70
+                                                            8  1725.0  3.11
+                                                            7  1300.0  6.97
+                                                            6   935.0  8.41
+                                                            5   630.0  5.91
+                                                            4   385.0  2.94
+                                                            3   200.0  2.60
+                                                            2    75.0  0.94
+                                                            1    10.0  0.44
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62373960    62373240
+  NOTICE metinp: CDC1 1 1599  144   73    1    1 62373960 18  8  5  6
+  NOTICE   main:           97    62373604       10000  5.5880926E+16
+  NOTICE   main:           97    62373608       10000  5.5841644E+16
+  NOTICE   main:           97    62373612       10000  5.5797634E+16
+  NOTICE   main:           97    62373616       10000  5.5760710E+16
+  NOTICE   main:           97    62373620       10000  5.5718340E+16
+  NOTICE   main:           97    62373624       10000  5.5680407E+16
+  NOTICE   main:           97    62373628       10000  5.5637530E+16
+  NOTICE   main:           97    62373632       10000  5.5589659E+16
+  NOTICE   main:           97    62373636       10000  5.5540760E+16
+  NOTICE   main:           97    62373640       10000  5.5501895E+16
+  NOTICE   main:           97    62373644       10000  5.5460539E+16
+  NOTICE   main:           97    62373648       10000  5.5407857E+16
+  NOTICE   main:           97    62373652       10000  5.5361287E+16
+  NOTICE   main:           97    62373656       10000  5.5314094E+16
+  NOTICE   main:           97    62373660       10000  5.5262971E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           98    62373664       10000  5.5221339E+16
+  NOTICE   main:           98    62373668       10000  5.5179511E+16
+  NOTICE   main:           98    62373672       10000  5.5127636E+16
+  NOTICE   main:           98    62373676       10000  5.5069796E+16
+  NOTICE   main:           98    62373680       10000  5.5011419E+16
+  NOTICE   main:           98    62373684       10000  5.4960240E+16
+  NOTICE   main:           98    62373688       10000  5.4905333E+16
+  NOTICE   main:           98    62373692       10000  5.4839470E+16
+  NOTICE   main:           98    62373696       10000  5.4776643E+16
+  NOTICE   main:           98    62373700       10000  5.4717600E+16
+  NOTICE   main:           98    62373704       10000  5.4653394E+16
+  NOTICE   main:           98    62373708       10000  5.4591766E+16
+  NOTICE   main:           98    62373712       10000  5.4526586E+16
+  NOTICE   main:           98    62373716       10000  5.4462990E+16
+  NOTICE   main:           98    62373720       10000  5.4394597E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:           99    62373724       10000  5.4333797E+16
+  NOTICE   main:           99    62373728       10000  5.4280639E+16
+  NOTICE   main:           99    62373732       10000  5.4226290E+16
+  NOTICE   main:           99    62373736       10000  5.4170378E+16
+  NOTICE   main:           99    62373740       10000  5.4122133E+16
+  NOTICE   main:           99    62373744       10000  5.4066947E+16
+  NOTICE   main:           99    62373748       10000  5.4021248E+16
+  NOTICE   main:           99    62373752       10000  5.3970104E+16
+  NOTICE   main:           99    62373756       10000  5.3910679E+16
+  NOTICE   main:           99    62373760       10000  5.3857610E+16
+  NOTICE   main:           99    62373764       10000  5.3799259E+16
+  NOTICE   main:           99    62373768       10000  5.3736917E+16
+  NOTICE   main:           99    62373772       10000  5.3667845E+16
+  NOTICE   main:           99    62373776       10000  5.3594891E+16
+  NOTICE   main:           99    62373780       10000  5.3529367E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          100    62373784       10000  5.3477269E+16
+  NOTICE   main:          100    62373788       10000  5.3416964E+16
+  NOTICE   main:          100    62373792       10000  5.3367378E+16
+  NOTICE   main:          100    62373796       10000  5.3312600E+16
+  NOTICE   main:          100    62373800       10000  5.3253742E+16
+  NOTICE   main:          100    62373804       10000  5.3195378E+16
+  NOTICE   main:          100    62373808       10000  5.3143898E+16
+  NOTICE   main:          100    62373812       10000  5.3086887E+16
+  NOTICE   main:          100    62373816       10000  5.3026031E+16
+  NOTICE   main:          100    62373820       10000  5.2975784E+16
+  NOTICE   main:          100    62373824       10000  5.2929657E+16
+  NOTICE   main:          100    62373828       10000  5.2884315E+16
+  NOTICE   main:          100    62373832       10000  5.2835519E+16
+  NOTICE   main:          100    62373836       10000  5.2772620E+16
+  NOTICE   main:          100    62373840       10000  5.2723726E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          101    62373843       10000  5.2680763E+16
+  NOTICE   main:          101    62373846       10000  5.2638179E+16
+  NOTICE   main:          101    62373849       10000  5.2590951E+16
+  NOTICE   main:          101    62373852       10000  5.2542727E+16
+  NOTICE   main:          101    62373855       10000  5.2485235E+16
+  NOTICE   main:          101    62373858       10000  5.2426252E+16
+  NOTICE   main:          101    62373861       10000  5.2379914E+16
+  NOTICE   main:          101    62373864       10000  5.2333790E+16
+  NOTICE   main:          101    62373867       10000  5.2277599E+16
+  NOTICE   main:          101    62373870       10000  5.2222215E+16
+  NOTICE   main:          101    62373873       10000  5.2162928E+16
+  NOTICE   main:          101    62373876       10000  5.2108304E+16
+  NOTICE   main:          101    62373879       10000  5.2055236E+16
+  NOTICE   main:          101    62373882       10000  5.1991245E+16
+  NOTICE   main:          101    62373885       10000  5.1924780E+16
+  NOTICE   main:          101    62373888       10000  5.1864788E+16
+  NOTICE   main:          101    62373891       10000  5.1809164E+16
+  NOTICE   main:          101    62373894       10000  5.1745740E+16
+  NOTICE   main:          101    62373897       10000  5.1684039E+16
+  NOTICE   main:          101    62373900       10000  5.1630309E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          102    62373903       10000  5.1574264E+16
+  NOTICE   main:          102    62373906       10000  5.1517931E+16
+  NOTICE   main:          102    62373909       10000  5.1456616E+16
+  NOTICE   main:          102    62373912       10000  5.1404587E+16
+  NOTICE   main:          102    62373915       10000  5.1344264E+16
+  NOTICE   main:          102    62373918       10000  5.1290512E+16
+  NOTICE   main:          102    62373921       10000  5.1236181E+16
+  NOTICE   main:          102    62373924       10000  5.1186003E+16
+  NOTICE   main:          102    62373927       10000  5.1123855E+16
+  NOTICE   main:          102    62373930       10000  5.1064451E+16
+  NOTICE   main:          102    62373933       10000  5.1007053E+16
+  NOTICE   main:          102    62373936       10000  5.0950948E+16
+  NOTICE   main:          102    62373939       10000  5.0893898E+16
+  NOTICE   main:          102    62373942       10000  5.0834795E+16
+  NOTICE   main:          102    62373945       10000  5.0769017E+16
+  NOTICE   main:          102    62373948       10000  5.0706006E+16
+  NOTICE   main:          102    62373951       10000  5.0649102E+16
+  NOTICE   main:          102    62373954       10000  5.0588886E+16
+  NOTICE   main:          102    62373957       10000  5.0533765E+16
+  NOTICE condsk:  1 output at    8   5   6   0
+  NOTICE   main:          102    62373960       10000  5.0475405E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.47
+                                                           20 11505.0  6.33
+                                                           19 10360.0  9.57
+                                                           18  9275.0  7.26
+                                                           17  8250.0  4.82
+                                                           16  7285.0  2.21
+                                                           15  6380.0  9.52
+                                                           14  5535.0 11.06
+                                                           13  4750.0  8.31
+                                                           12  4025.0  4.70
+                                                           11  3360.0  3.52
+                                                           10  2755.0  3.31
+                                                            9  2210.0  3.35
+                                                            8  1725.0  3.65
+                                                            7  1300.0  2.35
+                                                            6   935.0  1.47
+                                                            5   630.0  3.95
+                                                            4   385.0  6.08
+                                                            3   200.0  5.05
+                                                            2    75.0  2.19
+                                                            1    10.0  0.85
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62374320    62373600
+  NOTICE metinp: CDC1 1 1693  144   73    1    1 62374320 18  8  5 12
+  NOTICE   main:          103    62373963       10000  5.0410388E+16
+  NOTICE   main:          103    62373966       10000  5.0348055E+16
+  NOTICE   main:          103    62373969       10000  5.0288269E+16
+  NOTICE   main:          103    62373972       10000  5.0239963E+16
+  NOTICE   main:          103    62373975       10000  5.0186074E+16
+  NOTICE   main:          103    62373978       10000  5.0129823E+16
+  NOTICE   main:          103    62373981       10000  5.0080706E+16
+  NOTICE   main:          103    62373984       10000  5.0027242E+16
+  NOTICE   main:          103    62373987       10000  4.9974242E+16
+  NOTICE   main:          103    62373990       10000  4.9916969E+16
+  NOTICE   main:          103    62373993       10000  4.9852948E+16
+  NOTICE   main:          103    62373996       10000  4.9794807E+16
+  NOTICE   main:          103    62373999       10000  4.9736168E+16
+  NOTICE   main:          103    62374002       10000  4.9683542E+16
+  NOTICE   main:          103    62374005       10000  4.9622665E+16
+  NOTICE   main:          103    62374008       10000  4.9555371E+16
+  NOTICE   main:          103    62374011       10000  4.9494293E+16
+  NOTICE   main:          103    62374014       10000  4.9442173E+16
+  NOTICE   main:          103    62374017       10000  4.9396857E+16
+  NOTICE   main:          103    62374020       10000  4.9344527E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          104    62374023       10000  4.9283766E+16
+  NOTICE   main:          104    62374026       10000  4.9219204E+16
+  NOTICE   main:          104    62374029       10000  4.9152250E+16
+  NOTICE   main:          104    62374032       10000  4.9088087E+16
+  NOTICE   main:          104    62374035       10000  4.9034241E+16
+  NOTICE   main:          104    62374038       10000  4.8975890E+16
+  NOTICE   main:          104    62374041       10000  4.8916993E+16
+  NOTICE   main:          104    62374044       10000  4.8853745E+16
+  NOTICE   main:          104    62374047       10000  4.8798980E+16
+  NOTICE   main:          104    62374050       10000  4.8745164E+16
+  NOTICE   main:          104    62374053       10000  4.8684146E+16
+  NOTICE   main:          104    62374056       10000  4.8618158E+16
+  NOTICE   main:          104    62374059       10000  4.8566648E+16
+  NOTICE   main:          104    62374062       10000  4.8518403E+16
+  NOTICE   main:          104    62374065       10000  4.8471459E+16
+  NOTICE   main:          104    62374068       10000  4.8421663E+16
+  NOTICE   main:          104    62374071       10000  4.8378713E+16
+  NOTICE   main:          104    62374074       10000  4.8337555E+16
+  NOTICE   main:          104    62374077       10000  4.8288528E+16
+  NOTICE   main:          104    62374080       10000  4.8231168E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          105    62374083       10000  4.8193287E+16
+  NOTICE   main:          105    62374086       10000  4.8158206E+16
+  NOTICE   main:          105    62374089       10000  4.8116948E+16
+  NOTICE   main:          105    62374092       10000  4.8074600E+16
+  NOTICE   main:          105    62374095       10000  4.8032303E+16
+  NOTICE   main:          105    62374098       10000  4.7992390E+16
+  NOTICE   main:          105    62374101       10000  4.7950080E+16
+  NOTICE   main:          105    62374104       10000  4.7913362E+16
+  NOTICE   main:          105    62374107       10000  4.7866058E+16
+  NOTICE   main:          105    62374110       10000  4.7823044E+16
+  NOTICE   main:          105    62374113       10000  4.7784565E+16
+  NOTICE   main:          105    62374116       10000  4.7745214E+16
+  NOTICE   main:          105    62374119       10000  4.7697257E+16
+  NOTICE   main:          105    62374122       10000  4.7660917E+16
+  NOTICE   main:          105    62374125       10000  4.7627137E+16
+  NOTICE   main:          105    62374128       10000  4.7586275E+16
+  NOTICE   main:          105    62374131       10000  4.7548286E+16
+  NOTICE   main:          105    62374134       10000  4.7513406E+16
+  NOTICE   main:          105    62374137       10000  4.7483685E+16
+  NOTICE   main:          105    62374140       10000  4.7450794E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          106    62374143       10000  4.7412586E+16
+  NOTICE   main:          106    62374146       10000  4.7376857E+16
+  NOTICE   main:          106    62374149       10000  4.7351748E+16
+  NOTICE   main:          106    62374152       10000  4.7321013E+16
+  NOTICE   main:          106    62374155       10000  4.7288483E+16
+  NOTICE   main:          106    62374158       10000  4.7253501E+16
+  NOTICE   main:          106    62374161       10000  4.7218982E+16
+  NOTICE   main:          106    62374164       10000  4.7183493E+16
+  NOTICE   main:          106    62374167       10000  4.7152857E+16
+  NOTICE   main:          106    62374170       10000  4.7126065E+16
+  NOTICE   main:          106    62374173       10000  4.7099380E+16
+  NOTICE   main:          106    62374176       10000  4.7071033E+16
+  NOTICE   main:          106    62374179       10000  4.7042545E+16
+  NOTICE   main:          106    62374182       10000  4.7018618E+16
+  NOTICE   main:          106    62374185       10000  4.6992195E+16
+  NOTICE   main:          106    62374188       10000  4.6962354E+16
+  NOTICE   main:          106    62374191       10000  4.6935214E+16
+  NOTICE   main:          106    62374194       10000  4.6911085E+16
+  NOTICE   main:          106    62374197       10000  4.6884774E+16
+  NOTICE   main:          106    62374200       10000  4.6857037E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          107    62374204       10000  4.6826839E+16
+  NOTICE   main:          107    62374208       10000  4.6793248E+16
+  NOTICE   main:          107    62374212       10000  4.6757295E+16
+  NOTICE   main:          107    62374216       10000  4.6719396E+16
+  NOTICE   main:          107    62374220       10000  4.6689211E+16
+  NOTICE   main:          107    62374224       10000  4.6657540E+16
+  NOTICE   main:          107    62374228       10000  4.6620908E+16
+  NOTICE   main:          107    62374232       10000  4.6589748E+16
+  NOTICE   main:          107    62374236       10000  4.6556913E+16
+  NOTICE   main:          107    62374240       10000  4.6526084E+16
+  NOTICE   main:          107    62374244       10000  4.6490852E+16
+  NOTICE   main:          107    62374248       10000  4.6465937E+16
+  NOTICE   main:          107    62374252       10000  4.6440476E+16
+  NOTICE   main:          107    62374256       10000  4.6411528E+16
+  NOTICE   main:          107    62374260       10000  4.6388215E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          108    62374263       10000  4.6369734E+16
+  NOTICE   main:          108    62374266       10000  4.6348994E+16
+  NOTICE   main:          108    62374269       10000  4.6333978E+16
+  NOTICE   main:          108    62374272       10000  4.6312022E+16
+  NOTICE   main:          108    62374275       10000  4.6286622E+16
+  NOTICE   main:          108    62374278       10000  4.6259233E+16
+  NOTICE   main:          108    62374281       10000  4.6240370E+16
+  NOTICE   main:          108    62374284       10000  4.6223787E+16
+  NOTICE   main:          108    62374287       10000  4.6202982E+16
+  NOTICE   main:          108    62374290       10000  4.6184642E+16
+  NOTICE   main:          108    62374293       10000  4.6162150E+16
+  NOTICE   main:          108    62374296       10000  4.6140761E+16
+  NOTICE   main:          108    62374299       10000  4.6118642E+16
+  NOTICE   main:          108    62374302       10000  4.6093361E+16
+  NOTICE   main:          108    62374305       10000  4.6069769E+16
+  NOTICE   main:          108    62374308       10000  4.6043986E+16
+  NOTICE   main:          108    62374311       10000  4.6025299E+16
+  NOTICE   main:          108    62374314       10000  4.6006874E+16
+  NOTICE   main:          108    62374317       10000  4.5990480E+16
+  NOTICE condsk:  1 output at    8   5  12   0
+  NOTICE   main:          108    62374320       10000  4.5975984E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.17
+                                                           20 11505.0  4.48
+                                                           19 10360.0 11.52
+                                                           18  9275.0  7.56
+                                                           17  8250.0  7.02
+                                                           16  7285.0  2.80
+                                                           15  6380.0  5.64
+                                                           14  5535.0 14.97
+                                                           13  4750.0 10.91
+                                                           12  4025.0  5.48
+                                                           11  3360.0  3.42
+                                                           10  2755.0  3.91
+                                                            9  2210.0  4.87
+                                                            8  1725.0  3.91
+                                                            7  1300.0  2.12
+                                                            6   935.0  2.11
+                                                            5   630.0  2.35
+                                                            4   385.0  3.01
+                                                            3   200.0  2.21
+                                                            2    75.0  0.93
+                                                            1    10.0  0.61
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62374680    62373960
+  NOTICE metinp: CDC1 1 1787  144   73    1    1 62374680 18  8  5 18
+  NOTICE   main:          109    62374323       10000  4.5960419E+16
+  NOTICE   main:          109    62374326       10000  4.5945550E+16
+  NOTICE   main:          109    62374329       10000  4.5933374E+16
+  NOTICE   main:          109    62374332       10000  4.5917641E+16
+  NOTICE   main:          109    62374335       10000  4.5899491E+16
+  NOTICE   main:          109    62374338       10000  4.5884205E+16
+  NOTICE   main:          109    62374341       10000  4.5867674E+16
+  NOTICE   main:          109    62374344       10000  4.5852092E+16
+  NOTICE   main:          109    62374347       10000  4.5837197E+16
+  NOTICE   main:          109    62374350       10000  4.5823985E+16
+  NOTICE   main:          109    62374353       10000  4.5806990E+16
+  NOTICE   main:          109    62374356       10000  4.5793719E+16
+  NOTICE   main:          109    62374359       10000  4.5782139E+16
+  NOTICE   main:          109    62374362       10000  4.5768469E+16
+  NOTICE   main:          109    62374365       10000  4.5754523E+16
+  NOTICE   main:          109    62374368       10000  4.5739821E+16
+  NOTICE   main:          109    62374371       10000  4.5727422E+16
+  NOTICE   main:          109    62374374       10000  4.5714751E+16
+  NOTICE   main:          109    62374377       10000  4.5702773E+16
+  NOTICE   main:          109    62374380       10000  4.5691421E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          110    62374383       10000  4.5675006E+16
+  NOTICE   main:          110    62374386       10000  4.5662301E+16
+  NOTICE   main:          110    62374389       10000  4.5650542E+16
+  NOTICE   main:          110    62374392       10000  4.5635763E+16
+  NOTICE   main:          110    62374395       10000  4.5620747E+16
+  NOTICE   main:          110    62374398       10000  4.5607910E+16
+  NOTICE   main:          110    62374401       10000  4.5597529E+16
+  NOTICE   main:          110    62374404       10000  4.5586280E+16
+  NOTICE   main:          110    62374407       10000  4.5573000E+16
+  NOTICE   main:          110    62374410       10000  4.5558135E+16
+  NOTICE   main:          110    62374413       10000  4.5545014E+16
+  NOTICE   main:          110    62374416       10000  4.5531013E+16
+  NOTICE   main:          110    62374419       10000  4.5519730E+16
+  NOTICE   main:          110    62374422       10000  4.5507180E+16
+  NOTICE   main:          110    62374425       10000  4.5483794E+16
+  NOTICE   main:          110    62374428       10000  4.5470746E+16
+  NOTICE   main:          110    62374431       10000  4.5456731E+16
+  NOTICE   main:          110    62374434       10000  4.5437675E+16
+  NOTICE   main:          110    62374437       10000  4.5425107E+16
+  NOTICE   main:          110    62374440       10000  4.5414396E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          111    62374443       10000  4.5401489E+16
+  NOTICE   main:          111    62374446       10000  4.5390056E+16
+  NOTICE   main:          111    62374449       10000  4.5376476E+16
+  NOTICE   main:          111    62374452       10000  4.5362332E+16
+  NOTICE   main:          111    62374455       10000  4.5348601E+16
+  NOTICE   main:          111    62374458       10000  4.5337529E+16
+  NOTICE   main:          111    62374461       10000  4.5325434E+16
+  NOTICE   main:          111    62374464       10000  4.5311411E+16
+  NOTICE   main:          111    62374467       10000  4.5295597E+16
+  NOTICE   main:          111    62374470       10000  4.5279972E+16
+  NOTICE   main:          111    62374473       10000  4.5265957E+16
+  NOTICE   main:          111    62374476       10000  4.5251101E+16
+  NOTICE   main:          111    62374479       10000  4.5240892E+16
+  NOTICE   main:          111    62374482       10000  4.5227586E+16
+  NOTICE   main:          111    62374485       10000  4.5213997E+16
+  NOTICE   main:          111    62374488       10000  4.5205832E+16
+  NOTICE   main:          111    62374491       10000  4.5194489E+16
+  NOTICE   main:          111    62374494       10000  4.5181471E+16
+  NOTICE   main:          111    62374497       10000  4.5170596E+16
+  NOTICE   main:          111    62374500       10000  4.5157458E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          112    62374503       10000  4.5142950E+16
+  NOTICE   main:          112    62374506       10000  4.5130056E+16
+  NOTICE   main:          112    62374509       10000  4.5112348E+16
+  NOTICE   main:          112    62374512       10000  4.5099545E+16
+  NOTICE   main:          112    62374515       10000  4.5087854E+16
+  NOTICE   main:          112    62374518       10000  4.5078370E+16
+  NOTICE   main:          112    62374521       10000  4.5064966E+16
+  NOTICE   main:          112    62374524       10000  4.5054250E+16
+  NOTICE   main:          112    62374527       10000  4.5043259E+16
+  NOTICE   main:          112    62374530       10000  4.5035176E+16
+  NOTICE   main:          112    62374533       10000  4.5025349E+16
+  NOTICE   main:          112    62374536       10000  4.5013181E+16
+  NOTICE   main:          112    62374539       10000  4.5002324E+16
+  NOTICE   main:          112    62374542       10000  4.4992007E+16
+  NOTICE   main:          112    62374545       10000  4.4979917E+16
+  NOTICE   main:          112    62374548       10000  4.4965838E+16
+  NOTICE   main:          112    62374551       10000  4.4953615E+16
+  NOTICE   main:          112    62374554       10000  4.4939424E+16
+  NOTICE   main:          112    62374557       10000  4.4927329E+16
+  NOTICE   main:          112    62374560       10000  4.4915406E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          113    62374563       10000  4.4903209E+16
+  NOTICE   main:          113    62374566       10000  4.4892862E+16
+  NOTICE   main:          113    62374569       10000  4.4880304E+16
+  NOTICE   main:          113    62374572       10000  4.4863802E+16
+  NOTICE   main:          113    62374575       10000  4.4848585E+16
+  NOTICE   main:          113    62374578       10000  4.4833922E+16
+  NOTICE   main:          113    62374581       10000  4.4818503E+16
+  NOTICE   main:          113    62374584       10000  4.4800456E+16
+  NOTICE   main:          113    62374587       10000  4.4784393E+16
+  NOTICE   main:          113    62374590       10000  4.4771242E+16
+  NOTICE   main:          113    62374593       10000  4.4757360E+16
+  NOTICE   main:          113    62374596       10000  4.4748684E+16
+  NOTICE   main:          113    62374599       10000  4.4740876E+16
+  NOTICE   main:          113    62374602       10000  4.4731238E+16
+  NOTICE   main:          113    62374605       10000  4.4718877E+16
+  NOTICE   main:          113    62374608       10000  4.4704425E+16
+  NOTICE   main:          113    62374611       10000  4.4693988E+16
+  NOTICE   main:          113    62374614       10000  4.4684750E+16
+  NOTICE   main:          113    62374617       10000  4.4672595E+16
+  NOTICE   main:          113    62374620       10000  4.4660719E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          114    62374623       10000  4.4647955E+16
+  NOTICE   main:          114    62374626       10000  4.4632042E+16
+  NOTICE   main:          114    62374629       10000  4.4618714E+16
+  NOTICE   main:          114    62374632       10000  4.4608205E+16
+  NOTICE   main:          114    62374635       10000  4.4596217E+16
+  NOTICE   main:          114    62374638       10000  4.4584913E+16
+  NOTICE   main:          114    62374641       10000  4.4574004E+16
+  NOTICE   main:          114    62374644       10000  4.4560818E+16
+  NOTICE   main:          114    62374647       10000  4.4552860E+16
+  NOTICE   main:          114    62374650       10000  4.4542706E+16
+  NOTICE   main:          114    62374653       10000  4.4533352E+16
+  NOTICE   main:          114    62374656       10000  4.4522713E+16
+  NOTICE   main:          114    62374659       10000  4.4509764E+16
+  NOTICE   main:          114    62374662       10000  4.4499697E+16
+  NOTICE   main:          114    62374665       10000  4.4488517E+16
+  NOTICE   main:          114    62374668       10000  4.4476349E+16
+  NOTICE   main:          114    62374671       10000  4.4467725E+16
+  NOTICE   main:          114    62374674       10000  4.4459191E+16
+  NOTICE   main:          114    62374677       10000  4.4448290E+16
+  NOTICE condsk:  1 output at    8   5  18   0
+  NOTICE   main:          114    62374680       10000  4.4438029E+16
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.05
+                                                           20 11505.0  3.21
+                                                           19 10360.0 11.92
+                                                           18  9275.0  8.48
+                                                           17  8250.0  7.41
+                                                           16  7285.0  3.33
+                                                           15  6380.0  3.44
+                                                           14  5535.0 12.54
+                                                           13  4750.0 14.92
+                                                           12  4025.0  7.14
+                                                           11  3360.0  3.52
+                                                           10  2755.0  3.78
+                                                            9  2210.0  3.66
+                                                            8  1725.0  5.12
+                                                            7  1300.0  2.24
+                                                            6   935.0  1.78
+                                                            5   630.0  2.14
+                                                            4   385.0  2.61
+                                                            3   200.0  1.29
+                                                            2    75.0  1.15
+                                                            1    10.0  0.26
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE metpos: (mtime,ftime) -     62375040    62374320
+  NOTICE metinp: CDC1 1 1881  144   73    1    1 62375040 18  8  6  0
+  NOTICE   main:          115    62374683       10000  4.4425291E+16
+  NOTICE   main:          115    62374686       10000  4.4412904E+16
+  NOTICE   main:          115    62374689       10000  4.4400315E+16
+  NOTICE   main:          115    62374692       10000  4.4391317E+16
+  NOTICE   main:          115    62374695       10000  4.4380941E+16
+  NOTICE   main:          115    62374698       10000  4.4370221E+16
+  NOTICE   main:          115    62374701       10000  4.4360166E+16
+  NOTICE   main:          115    62374704       10000  4.4351138E+16
+  NOTICE   main:          115    62374707       10000  4.4341199E+16
+  NOTICE   main:          115    62374710       10000  4.4330617E+16
+  NOTICE   main:          115    62374713       10000  4.4320974E+16
+  NOTICE   main:          115    62374716       10000  4.4310804E+16
+  NOTICE   main:          115    62374719       10000  4.4298361E+16
+  NOTICE   main:          115    62374722       10000  4.4287478E+16
+  NOTICE   main:          115    62374725       10000  4.4278424E+16
+  NOTICE   main:          115    62374728       10000  4.4267545E+16
+  NOTICE   main:          115    62374731       10000  4.4256374E+16
+  NOTICE   main:          115    62374734       10000  4.4247475E+16
+  NOTICE   main:          115    62374737       10000  4.4240577E+16
+  NOTICE   main:          115    62374740       10000  4.4229178E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          116    62374743       10000  4.4217328E+16
+  NOTICE   main:          116    62374746       10000  4.4205874E+16
+  NOTICE   main:          116    62374749       10000  4.4194990E+16
+  NOTICE   main:          116    62374752       10000  4.4183574E+16
+  NOTICE   main:          116    62374755       10000  4.4173228E+16
+  NOTICE   main:          116    62374758       10000  4.4165093E+16
+  NOTICE   main:          116    62374761       10000  4.4154334E+16
+  NOTICE   main:          116    62374764       10000  4.4143678E+16
+  NOTICE   main:          116    62374767       10000  4.4134697E+16
+  NOTICE   main:          116    62374770       10000  4.4122062E+16
+  NOTICE   main:          116    62374773       10000  4.4110706E+16
+  NOTICE   main:          116    62374776       10000  4.4100209E+16
+  NOTICE   main:          116    62374779       10000  4.4089201E+16
+  NOTICE   main:          116    62374782       10000  4.4079447E+16
+  NOTICE   main:          116    62374785       10000  4.4069556E+16
+  NOTICE   main:          116    62374788       10000  4.4059510E+16
+  NOTICE   main:          116    62374791       10000  4.4050263E+16
+  NOTICE   main:          116    62374794       10000  4.4041819E+16
+  NOTICE   main:          116    62374797       10000  4.4031833E+16
+  NOTICE   main:          116    62374800       10000  4.4022388E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          117    62374803       10000  4.4010796E+16
+  NOTICE   main:          117    62374806       10000  4.3997190E+16
+  NOTICE   main:          117    62374809       10000  4.3987625E+16
+  NOTICE   main:          117    62374812       10000  4.3977570E+16
+  NOTICE   main:          117    62374815       10000  4.3966884E+16
+  NOTICE   main:          117    62374818       10000  4.3951938E+16
+  NOTICE   main:          117    62374821       10000  4.3941536E+16
+  NOTICE   main:          117    62374824       10000  4.3931301E+16
+  NOTICE   main:          117    62374827       10000  4.3919137E+16
+  NOTICE   main:          117    62374830       10000  4.3908477E+16
+  NOTICE   main:          117    62374833       10000  4.3900373E+16
+  NOTICE   main:          117    62374836       10000  4.3891027E+16
+  NOTICE   main:          117    62374839       10000  4.3878365E+16
+  NOTICE   main:          117    62374842       10000  4.3862538E+16
+  NOTICE   main:          117    62374845       10000  4.3847815E+16
+  NOTICE   main:          117    62374848       10000  4.3834269E+16
+  NOTICE   main:          117    62374851       10000  4.3820847E+16
+  NOTICE   main:          117    62374854       10000  4.3804599E+16
+  NOTICE   main:          117    62374857       10000  4.3789691E+16
+  NOTICE   main:          117    62374860       10000  4.3773005E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          118    62374863       10000  4.3755254E+16
+  NOTICE   main:          118    62374866       10000  4.3741339E+16
+  NOTICE   main:          118    62374869       10000  4.3727543E+16
+  NOTICE   main:          118    62374872       10000  4.3712614E+16
+  NOTICE   main:          118    62374875       10000  4.3698329E+16
+  NOTICE   main:          118    62374878       10000  4.3684885E+16
+  NOTICE   main:          118    62374881       10000  4.3671348E+16
+  NOTICE   main:          118    62374884       10000  4.3659528E+16
+  NOTICE   main:          118    62374887       10000  4.3647597E+16
+  NOTICE   main:          118    62374890       10000  4.3634325E+16
+  NOTICE   main:          118    62374893       10000  4.3622016E+16
+  NOTICE   main:          118    62374896       10000  4.3609350E+16
+  NOTICE   main:          118    62374899       10000  4.3594086E+16
+  NOTICE   main:          118    62374902       10000  4.3583696E+16
+  NOTICE   main:          118    62374905       10000  4.3570287E+16
+  NOTICE   main:          118    62374908       10000  4.3556573E+16
+  NOTICE   main:          118    62374911       10000  4.3545939E+16
+  NOTICE   main:          118    62374914       10000  4.3534132E+16
+  NOTICE   main:          118    62374917       10000  4.3521346E+16
+  NOTICE   main:          118    62374920       10000  4.3510712E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          119    62374923       10000  4.3498759E+16
+  NOTICE   main:          119    62374926       10000  4.3485651E+16
+  NOTICE   main:          119    62374929       10000  4.3474492E+16
+  NOTICE   main:          119    62374932       10000  4.3465035E+16
+  NOTICE   main:          119    62374935       10000  4.3454667E+16
+  NOTICE   main:          119    62374938       10000  4.3444238E+16
+  NOTICE   main:          119    62374941       10000  4.3434077E+16
+  NOTICE   main:          119    62374944       10000  4.3424095E+16
+  NOTICE   main:          119    62374947       10000  4.3412765E+16
+  NOTICE   main:          119    62374950       10000  4.3402397E+16
+  NOTICE   main:          119    62374953       10000  4.3389765E+16
+  NOTICE   main:          119    62374956       10000  4.3380535E+16
+  NOTICE   main:          119    62374959       10000  4.3370962E+16
+  NOTICE   main:          119    62374962       10000  4.3362041E+16
+  NOTICE   main:          119    62374965       10000  4.3356127E+16
+  NOTICE   main:          119    62374968       10000  4.3345763E+16
+  NOTICE   main:          119    62374971       10000  4.3335413E+16
+  NOTICE   main:          119    62374974       10000  4.3324568E+16
+  NOTICE   main:          119    62374977       10000  4.3312649E+16
+  NOTICE   main:          119    62374980       10000  4.3301435E+16
+  NOTICE advrng: (kg ,xyr,xy1) -  1  144   73    1    1
+  NOTICE   main:          120    62374983       10000  4.3289164E+16
+  NOTICE   main:          120    62374986       10000  4.3281047E+16
+  NOTICE   main:          120    62374989       10000  4.3271903E+16
+  NOTICE   main:          120    62374992       10000  4.3264125E+16
+  NOTICE   main:          120    62374995       10000  4.3255840E+16
+  NOTICE   main:          120    62374998       10000  4.3244729E+16
+  NOTICE   main:          120    62375001       10000  4.3233716E+16
+  NOTICE   main:          120    62375004       10000  4.3222816E+16
+  NOTICE   main:          120    62375007       10000  4.3214393E+16
+  NOTICE   main:          120    62375010       10000  4.3202088E+16
+  NOTICE   main:          120    62375013       10000  4.3190831E+16
+  NOTICE   main:          120    62375016       10000  4.3179870E+16
+  NOTICE   main:          120    62375019       10000  4.3164632E+16
+  NOTICE   main:          120    62375022       10000  4.3154878E+16
+  NOTICE   main:          120    62375025       10000  4.3142800E+16
+  NOTICE   main:          120    62375028       10000  4.3129628E+16
+  NOTICE   main:          120    62375031       10000  4.3117709E+16
+  NOTICE   main:          120    62375034       10000  4.3104287E+16
+  NOTICE   main:          120    62375037       10000  4.3093602E+16
+  NOTICE condsk:  1 output at    8   6   0   0
+  NOTICE   main:          120    62375040       10000  4.3083156E+16
+  NOTICE parout:   18   8   6   0   0    Num=   10000
+                                                        Index  Height %Mass
+                                                           21 12710.0  0.19
+                                                           20 11505.0  3.69
+                                                           19 10360.0 10.24
+                                                           18  9275.0 10.24
+                                                           17  8250.0  7.74
+                                                           16  7285.0  3.01
+                                                           15  6380.0  3.17
+                                                           14  5535.0 12.09
+                                                           13  4750.0 10.59
+                                                           12  4025.0 11.41
+                                                           11  3360.0  5.22
+                                                           10  2755.0  3.10
+                                                            9  2210.0  3.56
+                                                            8  1725.0  4.59
+                                                            7  1300.0  3.34
+                                                            6   935.0  2.01
+                                                            5   630.0  1.58
+                                                            4   385.0  1.71
+                                                            3   200.0  1.23
+                                                            2    75.0  1.00
+                                                            1    10.0  0.27
